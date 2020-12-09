@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>HTML Course</title>
+</head>
+
+<body>
+  <p>Hello</p>
+  <!-- comments 
+  multiple lines of comments
+  
+  
+  -->
+  <p></p>
+  <!-- This is about me content -->
+</body>
+
+</html>

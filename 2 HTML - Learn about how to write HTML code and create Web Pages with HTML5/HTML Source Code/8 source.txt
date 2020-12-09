@@ -1,0 +1,36 @@
+https://htmlstrip.com/lorem-ipsum-generator 
+
+The HTML <a> element (or anchor element) creates a hyperlink to other web pages, files, locations within the same page, email addresses, or any other URL.
+
+Target _self default opens in same window _blank - New window or tab _parent opens in parent frame
+
+Link Bookmarks <a href=”#id”>id</a> <h2 id=”id”>blah blah blah</h2>
+
+_self: Load the URL into the same browsing context as the current one. This is the default behavior.
+
+_blank: Load the URL into a new browsing context. This is usually a tab, but users can configure browsers to use new windows instead.
+
+_parent: Load the URL into the parent browsing context of the current one. If there is no parent, this behaves the same way as _self.
+
+_top: Load the URL into the top-level browsing context
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>HTML Course</title>
+</head>
+
+<body>
+  <a href="#page1">Bookmark</a>
+  <a href="2%20index.html" target="_blank">relative Path</a>
+  <a href= "http://www.google.com" target="_blank">Google </a>
+  <h1>Hoc non est positum in nostra actione.</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <b>Sed ille, ut dixi, vitiose.</b> Idem fecisset Epicurus, si sententiam hanc, quae nunc Hieronymi est, coniunxisset cum Aristippi vetere sententia. Nam constitui virtus nullo modo potesti nisi ea, quae sunt prima naturae, ut ad summam pertinentia tenebit. <a href='http://loripsum.net/' target='_blank'>Ita nemo beato beatior.</a> Duo Reges: constructio interrete. Fieri, inquam, Triari, nullo pacto potest, ut non dicas, quid non probes eius, a quo dissentias. </p>
+  <h3>Quis est tam dissimile homini.</h3>
+  <p>Gracchum patrem non beatiorem fuisse quam fillum, cum alter stabilire rem publicam studuerit, alter evertere. Non quaeritur autem quid naturae tuae consentaneum sit, sed quid disciplinae. <b>Non igitur bene.</b> Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. Ergo adhuc, quantum equidem intellego, causa non videtur fuisse mutandi nominis. <b>Confecta res esset.</b> Si verbum sequimur, primum longius verbum praepositum quam bonum. <a href='http://loripsum.net/' target='_blank'>Vide, quaeso, rectumne sit.</a> Non quaeritur autem quid naturae tuae consentaneum sit, sed quid disciplinae. Tum Piso: Atqui, Cicero, inquit, ista studia, si ad imitandos summos viros spectant, ingeniosorum sunt; Solum praeterea formosum, solum liberum, solum civem, stultost; Quorum sine causa fieri nihil putandum est. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. </p>
+  <h2 id="page1"><mark>PAGE 1</mark> Cum id fugiunt, re eadem defendunt, quae Peripatetici, verba.</h2>
+  <p>Nam et complectitur verbis, quod vult, et dicit plane, quod intellegam; Nam de summo mox, ut dixi, videbimus et ad id explicandum disputationem omnem conferemus. Ego, quam ille praeponendam et magis eligendam, beatiorem hanc appello nec ullo minimo momento plus ei vitae tribuo quam Stoici. Sic vester sapiens magno aliquo emolumento commotus cicuta, si opus erit, dimicabit. Sed quia studebat laudi et dignitati, multum in virtute processerat. Minime vero probatur huic disciplinae, de qua loquor, aut iustitiam aut amicitiam propter utilitates adscisci aut probari. <i>Nunc haec primum fortasse audientis servire debemus.</i> Tria genera bonorum; <b>Illud dico, ea, quae dicat, praeclare inter se cohaerere.</b> In quibus doctissimi illi veteres inesse quiddam caeleste et divinum putaverunt. Quis animo aequo videt eum, quem inpure ac flagitiose putet vivere? <i>An hoc usque quaque, aliter in vita?</i> </p>
+</body>
+
+</html>

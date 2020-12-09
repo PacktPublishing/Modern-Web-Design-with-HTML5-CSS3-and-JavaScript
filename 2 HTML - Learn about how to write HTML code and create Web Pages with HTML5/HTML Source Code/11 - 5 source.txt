@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Laurence Svekis</title>
+</head>
+
+<body>
+  <h1>Laurence Svekis</h1>
+  <hr>
+  <a href="https://twitter.com/Lsvekis" target="_blank"><img src="https://pbs.twimg.com/profile_images/1248039192099201032/RYHZEyXf_400x400.jpg" style="width:100px" alt="Laurence Svekis"></a>
+  <p>Google Developer Experts Online Course Creator and Author Speaker and Presenter Application Developer - Digital Content Creator </p>
+</body>
+
+</html>

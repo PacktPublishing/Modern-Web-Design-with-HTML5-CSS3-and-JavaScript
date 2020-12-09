@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>HTML Course</title>
+</head>
+
+<body>Main Content</body>
+
+</html>

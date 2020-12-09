@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Home</title>
+</head>
+
+<body>
+  <h1>Home</h1>
+  <hr>
+  <p> <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a> </p>
+  <hr>
+  <ul>
+    <li>Counter
+      <ol>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+      </ol>
+    </li>
+    <li>Two Items</li>
+    <li>Three Item</li>
+  </ul>
+  <ul style="list-style:lower-alpha">
+    <li>One Item</li>
+    <li>Two Items</li>
+    <li>Three Item</li>
+  </ul>
+  <ol type="I" start="50">
+    <li>One Item</li>
+    <li>Two Items</li>
+    <li>Three Item</li>
+  </ol>
+  <ol>
+    <li>One Item</li>
+    <li>Two Items</li>
+    <li>Three Item</li>
+  </ol>
+  <dl> <dt>One</dt>
+    <dd>First number</dd> <dt>Two</dt>
+    <dd>Second number</dd>
+  </dl>
+  <hr>
+  <p><img src="logo.png" alt="Logo Discoveryvip" style="width:100px;height: 50px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <b>Sed ille, ut dixi, vitiose.</b> Idem fecisset Epicurus, si sententiam hanc, quae nunc Hieronymi est, coniunxisset cum Aristippi vetere sententia.<img src="https://via.placeholder.com/300x50.png?text=Visit+WhoIsHostingThis.com+Buyers+"> Nam constitui virtus nullo modo potesti nisi ea, quae sunt prima naturae, ut ad summam pertinentia tenebit. <a href='http://www.google.com/' target='_blank'>Go to Google</a> Duo Reges: constructio interrete. Fieri, inquam, Triari, nullo pacto potest, ut non dicas, quid non probes eius, a quo dissentias. </p>
+  <!-- Add more real content -->
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+<address>
+  Contact me at <a href="mailto:g*******@gmail.com?subject=Test Email&body=test body content">Laurence Svekis</a><br>
+  Vist me Toronto Ontario Canada
+  <br>
+  <a href="tel:416-111-11">416-111-11</a>
+</address>

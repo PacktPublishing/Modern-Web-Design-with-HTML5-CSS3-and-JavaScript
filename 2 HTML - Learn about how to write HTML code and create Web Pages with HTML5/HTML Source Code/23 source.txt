@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Home</title>
+</head>
+
+<body>
+  <iframe src="test1.html" title="Course Site" style="width:400px;height:200px;"></iframe> <a href="about.html" target="myFrame">In Frame</a>
+  <iframe name="myFrame" src="" title="Course Site" style="width:400px;height:200px;border:none;"></iframe>
+</body>
+
+</html>

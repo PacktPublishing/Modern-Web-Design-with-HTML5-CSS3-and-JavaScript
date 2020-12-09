@@ -1,0 +1,23 @@
+Try elements 
+
+<br> <hr> <p>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>HTML Course</title>
+</head>
+
+<body>
+  <p style="color:red">Content</p> Hello World
+  <br> Hello World
+  <hr>
+  <p>Hello World</p>
+  <p>Hello World</p> Hello World
+  <br>
+  <p>Hello
+    <br>World</p>
+</body>
+
+</html>

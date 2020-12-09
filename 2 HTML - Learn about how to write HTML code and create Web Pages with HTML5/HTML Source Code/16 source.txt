@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Home</title>
+  <style>
+    div {
+      border: 1px solid red;
+    }
+    
+    .one {
+      border: 1px solid blue;
+    }
+    
+    span {
+      border: 1px solid green;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div>Logo Welcome to my Site</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <article>
+      <h1>Home</h1>
+      <div class="one">Div</div>
+      <div class="two">Div</div>
+      <div>Div</div>
+      <div>Div</div>
+      <div>Div</div>
+      <div>Div</div> <span>Span</span><span>Span</span><span>Span</span><span>Span</span><span>Span</span><span>Span</span><span>Span</span>
+      <hr>
+      <p><img src="logo.png" alt="Logo " style="width:100px;height: 50px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <b>Sed ille, ut dixi, vitiose.</b> Idem fecisset Epicurus, <small>small</small>si sententiam hanc, quae nunc Hieronymi est, coniunxisset cum Aristippi vetere sententia.<img src="https://via.placeholder.com/300x50.png?text=Visit+WhoIsHostingThis.com+Buyers+"> Nam constitui virtus nullo modo potesti nisi ea, quae sunt prima naturae, ut ad summam pertinentia tenebit. <a href='http://www.google.com/' target='_blank'>Go to Google</a> Duo Reges: constructio interrete. Fieri, inquam, Triari, nullo pacto potest, ut non dicas, quid non probes eius, a quo dissentias. </p>
+    </article>
+    <aside>Side Menu</aside>
+  </section>
+  <footer> (c) Copyright my Website - Contact me Here </footer>
+  <!-- Add more real content -->
+</body>
+
+</html>

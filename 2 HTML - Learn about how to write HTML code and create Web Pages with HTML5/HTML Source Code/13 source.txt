@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Home</title>
+  <style>
+    table,
+    td {
+      border: 1px solid red;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Home</h1>
+  <table style="border-spacing: 5px">
+    <thead>
+      <tr>
+        <th>Counter One</th>
+        <th>Counter Two</th>
+        <th>End Colo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>One</td>
+        <td>two</td>
+        <td>two</td>
+      </tr>
+      <tr>
+        <td>One</td>
+        <td style="border: 1px solid black;" colspan="2">two</td>
+      </tr>
+      <tr>
+        <td>One</td>
+        <td>two</td>
+        <td style="border: 1px solid black;" rowspan="2">Multiple Rows</td>
+      </tr>
+      <tr>
+        <td>One</td>
+        <td>two</td>
+      </tr>
+      <tr>
+        <td><img src="logo.png" alt="Logo Discoveryvip" style="width:100px;height: 50px"></td>
+        <td>two</td>
+        <td>two</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3">Footer</td>
+      </tr>
+    </tfoot>
+  </table>
+  <hr>
+  <p><img src="logo.png" alt="Logo Discoveryvip" style="width:100px;height: 50px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <b>Sed ille, ut dixi, vitiose.</b> Idem fecisset Epicurus, si sententiam hanc, quae nunc Hieronymi est, coniunxisset cum Aristippi vetere sententia.<img src="https://via.placeholder.com/300x50.png?text=Visit+WhoIsHostingThis.com+Buyers+"> Nam constitui virtus nullo modo potesti nisi ea, quae sunt prima naturae, ut ad summam pertinentia tenebit. <a href='http://www.google.com/' target='_blank'>Go to Google</a> Duo Reges: constructio interrete. Fieri, inquam, Triari, nullo pacto potest, ut non dicas, quid non probes eius, a quo dissentias. </p>
+  <!-- Add more real content -->
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Home</title>
+</head>
+
+<body>
+  <form method="get">
+    <div>
+      <label for="first">First : </label>
+      <input type="text" name="first" id="first" placeholder="First name" value="First">
+    </div>
+    <div>
+      <label for="last">Last : </label>
+      <input type="text" name="last" id="last" placeholder="Last name" value="Last">
+    </div>
+    <input type="submit"> </form>
+</body>
+
+</html>

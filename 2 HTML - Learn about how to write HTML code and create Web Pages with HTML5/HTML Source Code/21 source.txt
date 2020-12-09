@@ -1,0 +1,50 @@
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Home</title>
+</head>
+
+<body>
+  <form method="get" enctype="text/plain" autocomplete="off">
+    <fieldset>
+      <div>
+        <label for="first">First : </label>
+        <input type="text" name="first" id="first" placeholder="First name" value="First" required> </div>
+      <div>
+        <label for="last">Last : </label>
+        <input type="text" name="last" id="last" placeholder="Last name" value="Last"> </div>
+    </fieldset>
+    <div>
+      <select name="sel" size="3" multiple>
+        <option value="one">One</option>
+        <option value="two" selected>Two</option>
+        <option value="one">One</option>
+        <option value="one">One</option>
+      </select>
+      <textarea name="message" style="width:100px;height:100px">Default Content</textarea>
+    </div>
+    <input type="checkbox" checked name="check">
+    <input type="color" name="color">
+    <input type="date" name="date">
+    <input type="datetime-local" name="datetime">
+    <input type="email" name="email">
+    <input type="password" name="pass">
+    <input type="file">
+    <input type="hidden" value="id" name="id">
+    <input type="number">
+    <input type="radio" name="radio1" value="one">
+    <input type="radio" name="radio1" value="two" checked>
+    <input type="radio" name="radio1" value="three">
+    <input type="url">
+    <input type="tel">
+    <input type="range" name="ranger" min="0" max="10">
+    <button type="reset">Reset</button>
+    <input type="submit" value="press me"> </form>
+</body>
+
+</html>

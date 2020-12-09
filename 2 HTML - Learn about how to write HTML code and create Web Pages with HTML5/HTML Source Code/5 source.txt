@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>HTML Course</title>
+</head>
+
+<body>
+Laurence Svekis
+This is my website
+I enjoy coding and warm weather
+I will continue to ask you to keep trying the code no matter what
+HTML Course
+Please do try this today!
+Looking forward to what you can do with HTML.
+Let me know if you have any questions.
+</body>
+
+</html>
+
+
+
+SOLUTION Don't peek
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>HTML Course</title>
+</head>
+
+<body>
+<h1>Laurence Svekis</h1>
+<h2>This is my website</h2>
+<p>I enjoy <strong>coding</strong> and <em>warm weather</em>.<br>I will continue to <em>ask you to keep trying the code</em> no matter what</p>
+<hr>
+<h2>HTML Course</h2>
+<p><b>Please</b> do try this <strong>today!</strong></p>
+<p>Looking forward to what you can do with HTML.</p>
+<p><strong>HELP!</strong><br>Let me know if you have any questions.</p>
+</body>
+
+</html>

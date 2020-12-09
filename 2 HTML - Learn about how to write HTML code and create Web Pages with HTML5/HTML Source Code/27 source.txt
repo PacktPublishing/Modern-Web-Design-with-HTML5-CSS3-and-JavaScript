@@ -1,0 +1,22 @@
+Keyboard shortcuts for opening DevTools
+
+To open DevTools, press the following keyboard shortcuts while your cursor is focused on the browser viewport:
+
+Action	Mac	Windows / Linux
+
+Open whatever panel you used last	Command+Option+I	F12 or Control+Shift+I
+
+Open the Console panel	Command+Option+J	Control+Shift+J
+
+Open the Elements panel	Command+Shift+C or Command+Option+C	Control+Shift+C
+
+HTML resources
+
+https://developer.mozilla.org/en-US/docs/Glossary/HTML
+
+https://devdocs.io/html-attributes/
+
+Validator
+
+https://validator.w3.org/
+

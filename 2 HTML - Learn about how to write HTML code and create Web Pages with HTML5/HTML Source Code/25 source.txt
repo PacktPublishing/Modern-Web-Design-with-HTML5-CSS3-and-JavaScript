@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Laurence Svekis">
+  <meta name="description" content="HTML course">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+  <meta name="robots" content="index, follow">
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" value="summary">
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Title" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="http://www.example.com/" />
+  <meta property="og:image" content="http://example.com/image.jpg" />
+  <meta property="og:description" content="Description Here" /> </head>
+
+<body>
+  <h1>Welcome to HTML5</h1> </body>
+
+</html>

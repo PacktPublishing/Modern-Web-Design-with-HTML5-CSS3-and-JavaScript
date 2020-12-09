@@ -1,0 +1,68 @@
+https://discoveryvip2.github.io/resume2/
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Laurence Svekis</title>
+  <style>
+    h2 {
+      border: solid 2px red;
+    }
+    
+    section,
+    footer {
+      border: solid 1px black;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Laurence Svekis</h1> </header>
+  <hr>
+  <section>
+    <table>
+      <tr>
+        <td>
+          <a href="https://twitter.com/22" target="_blank"><img src="https://pbs.twimg.com/profile_images/1248039192099201032/RYHZEyXf_400x400.jpg" style="width:100px" alt="Laurence Svekis"></a>
+        </td>
+        <td>
+          <p>Google Developer Experts Online Course Creator and Author Speaker and Presenter Application Developer - Digital Content Creator </p>
+        </td>
+      </tr>
+    </table>
+    <hr>
+    <h2>Experience</h2>
+    <ul>
+      <li>Online Instructor <small>2010-Present</small>
+        <ol>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ol>
+      </li>
+      <li>Web Developer <small>2001-2010</small>
+        <ol>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ol>
+      </li>
+    </ul>
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </section>
+  <footer>
+    <div>Contact Me <address>
+    Contact me at <a href="mailto:mailto:gappscourses@gmail.com">Contact Laurence Svekis</a>
+    <a href="tel:416-416-4161">416-416-4161</a>
+  </address> </div>
+  </footer>
+</body>
+
+</html>

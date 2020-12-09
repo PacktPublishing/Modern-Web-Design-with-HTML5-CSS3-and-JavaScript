@@ -1,0 +1,38 @@
+Select some of your favorites and add them to your html page
+
+https://dev.w3.org/html5/html-author/charref
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>HTML Course</title>
+</head>
+
+<body> Whitespace&nbsp;handling &hearts;
+  <br> HTML code and viewable content Whitespace spacing in content
+  <br> <pre>Preformatted text</pre>
+  <br> <b>B</b> - Bold text <strong>Strong</strong>- Important text
+  <br> <i>i</i>i - Italic text <em>em</em> - Emphasized text
+  <br>
+  <mark> Marked </mark>
+  <br> <small>Small text</small> Text
+  <br> <del>Deleted text </del>
+  <br> <ins>Inserted text</ins>
+  <br> <sub>sub</sub>- Subscript text
+  <br> <sup>sup</sup> - Superscript text
+  <br> Text Formats HTML
+  <br> markMarked/mark
+  <br>
+  <blockquote>Welcome to blockquotes</blockquote>
+  <br> <u>underlined text</u>/u&nbsp;
+  <br> <strike>Strike text</strike>/strike &nbsp;
+  <br> <big>Big </big>text/big
+  <br> <acronym>and /acronym</acronym> &nbsp;&nbsp;
+  <br> <q>Quote</q> """" Quote &nbsp;&nbsp;
+  <br> <cite> text within </cite>cites /cite
+  <br> <code>This is code.</code>This is code./code
+  <p></p>
+  <br> </body>
+
+</html>

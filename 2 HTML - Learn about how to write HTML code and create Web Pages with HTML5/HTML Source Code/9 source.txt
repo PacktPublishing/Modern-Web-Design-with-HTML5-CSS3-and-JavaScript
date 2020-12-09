@@ -1,0 +1,56 @@
+INDEX.html
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Home</title>
+</head>
+
+<body>
+  <h1>Home</h1>
+  <hr>
+  <p> <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a> </p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <b>Sed ille, ut dixi, vitiose.</b> Idem fecisset Epicurus, si sententiam hanc, quae nunc Hieronymi est, coniunxisset cum Aristippi vetere sententia. Nam constitui virtus nullo modo potesti nisi ea, quae sunt prima naturae, ut ad summam pertinentia tenebit. <a href='http://www.google.com/' target='_blank'>Go to Google</a> Duo Reges: constructio interrete. Fieri, inquam, Triari, nullo pacto potest, ut non dicas, quid non probes eius, a quo dissentias. </p>
+  <!-- Add more real content -->
+</body>
+
+</html>
+
+ABOUT.html
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>About</title>
+</head>
+
+<body>
+  <h1>About</h1>
+  <hr>
+  <p> <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a> </p>
+  <p>Lorem ipsum dolor <a href='http://www.google.com/' target='_blank'>Go to Google</a> </p>
+  <!-- Add more real content -->
+</body>
+
+</html>
+
+CONTACT.html
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Contact</title>
+</head>
+
+<body>
+  <h1>Contact</h1>
+  <hr>
+  <p> <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a> </p>
+  <p>Lorem <a href='http://www.google.com/' target='_blank'>Go to Google</a> Duo Reges: constructio interrete. Fieri, </p>
+  <!-- Add more real content -->
+</body>
+
+</html>

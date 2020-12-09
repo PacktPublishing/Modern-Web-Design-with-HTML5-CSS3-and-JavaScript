@@ -1,0 +1,56 @@
+https://web.archive.org/web/19981215000000*/ebay.com
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Ebay 1999</title>
+  <style>
+    table {
+      border: 1px solid black;
+    }
+  </style>
+</head>
+
+<body>
+  <table style="width: 600px;">
+    <tbody>
+      <tr>
+        <td> <img src="https://web.archive.org/web/19990117033159im_/http://pics.ebay.com/aw/pics/logo_home_tb.gif">
+          <table>
+            <tr>
+              <td>Categories</td>
+            </tr>
+            <tr>
+              <td><a href="#">Anitques</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">Books Movies Music</a></td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>Navigation items</td>
+            </tr>
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td>Main Content
+                      <br> The Day You Were Born CD~Last Chance!! Drive Your Own Water Well - Y2K, Irrigation Canon Bjc 600/610/620 Bcmy Ink Cartridge Set Mitsubishi Digital Camera 2MB & Soft Case $89 Don't Miss ! Pink Tourmaline & Diamond Ring ! Electric Cord Reel **New**Warranty** </td>
+                    <td>Side Nav Bar Aside
+                      <br>1,309,481 items for sale in 1,096 categories now! Over 41 million items for sale on eBay since inception! Over 151 million bids made since inception! Over 600 million page views per month!</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
