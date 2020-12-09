@@ -1,0 +1,9 @@
+let message = 'It\'s my Page';
+message = "It's my Page";
+let person = "Laurence Svekis";
+let output = message + ' "Hello" World ' + person;
+message = `It's my Page. ${person}  
+"Hello" World`;
+console.log(message);
+document.write(message);
+document.getElementById('message').innerHTML = message;

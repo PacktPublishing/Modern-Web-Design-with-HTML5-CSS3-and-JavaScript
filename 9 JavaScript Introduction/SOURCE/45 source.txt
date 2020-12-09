@@ -1,0 +1,13 @@
+for (let x = 10; x < 5; x++) {
+  console.log(x);
+}
+let y = 10;
+while (y < 5) {
+  console.log(y);
+  y++;
+}
+let z = 10;
+do {
+  console.log(z);
+  z++;
+} while (z < 5);

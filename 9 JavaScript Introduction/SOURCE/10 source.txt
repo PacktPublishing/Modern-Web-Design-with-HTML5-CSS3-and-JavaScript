@@ -1,0 +1,13 @@
+let person = prompt('Your Name?');
+let message = "Welcome , " + person;
+console.log(message);
+document.write(message);
+document.getElementById('message').innerHTML = message;
+
+/*let myName = prompt('What is your name?');
+let message = 'Welcome to the page, ';
+let output = message + myName;
+console.log(output);
+document.write(myName);
+document.getElementById('message').innerHTML = myName;
+console.log(myName);*/

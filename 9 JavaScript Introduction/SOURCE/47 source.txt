@@ -1,0 +1,9 @@
+const myObj = {
+  first: "Laurence"
+  , last: "Svekis"
+  , age: 30
+};
+for (let prop in myObj) {
+  console.log(prop);
+  console.log(myObj[prop]);
+}

@@ -1,0 +1,19 @@
+const person = {};
+person["First Name"] = "Laurence";
+person.talking = function () {
+  return "I'm Talking now";
+}
+const val = person.talking();
+console.log(val);
+person.first = "Laurence";
+person.last = "Svekis";
+person.full = function () {
+  console.log(this);
+  return `${this.first} ${this.last}`;
+}
+person.welcome = function (personName) {
+  return `Hello, ${personName}`;
+}
+console.log(person.full());
+console.log(person.welcome("Laurence"));
+console.log(person.welcome(person.full()));

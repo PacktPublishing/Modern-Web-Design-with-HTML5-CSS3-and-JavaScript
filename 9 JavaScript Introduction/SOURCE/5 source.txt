@@ -1,0 +1,4 @@
+//alert('test');
+//document.write('Laurence Svekis');
+//document.getElementById('message').innerHTML= "Laurence Svekis";
+console.log('Laurence Svekis');

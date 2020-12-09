@@ -1,0 +1,10 @@
+// alert('hello');
+// Single comment
+alert('test');
+alert('test1'); // second popup window
+/*
+Multi Line 
+Comment
+
+
+*/

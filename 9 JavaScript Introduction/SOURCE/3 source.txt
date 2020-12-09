@@ -1,0 +1,21 @@
+HTML
+
+<!doctype html>
+<html>
+
+<head>
+  <title>JavaScript</title>
+  <style>h1{text-align: center;}</style>
+
+</head>
+<body>
+  <h1>Welcome to JavaScript</h1>
+  <button onclick='alert("hi");'>Click Me</button>
+  <script src="script.js"></script>
+</body>
+
+</html>
+
+JavaScript
+
+alert('hello');

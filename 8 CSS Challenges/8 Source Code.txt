@@ -1,0 +1,19 @@
+footer {
+  clear: both;
+  margin: 20px 0;
+  padding: 0 25px;
+  border: 1px solid black;
+  width: 90%;
+  left:5%;
+  position: relative;
+  height: 200px;
+}
+
+footer > div {
+  width: 200px;
+  border: 1px solid black;
+  margin: auto;
+  text-align: center;
+  border-radius: 25px;
+  padding: 10px;
+}

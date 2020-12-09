@@ -1,0 +1,59 @@
+HTML Page
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Home Page</title>
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to my WebPage</h1> </header>
+  <nav>
+    <div><a href="index.html">Home</a></div>
+    <div><a href="about.html">About</a></div>
+  </nav>
+  <main>
+    <article>
+      <!-- add content HERE-->
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque varius morbi enim nunc faucibus a pellentesque. <img src="https://dummyimage.com/320x200/e02fe0/9d9fbd&text=placeholder+text"></p>
+      <table>
+        <tr>
+          <td>Test 1</td>
+          <td>Test 2</td>
+        </tr>
+        <tr>
+          <td>Test 1</td>
+          <td>Test 2</td>
+        </tr>
+        <tr>
+          <td>Test 1</td>
+          <td>Test 2</td>
+        </tr>
+        <tr>
+          <td>Test 1</td>
+          <td>Test 2</td>
+        </tr>
+      </table>
+    </article>
+    <aside>
+      <!-- add content HERE--><p>Second column or aside </p></aside>
+  </main>
+  <footer>
+    <div>©Copyright my Website - Address and contact me here.</div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>
+
+CSS
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+body {
+  font-family: 'Merriweather', serif;
+}

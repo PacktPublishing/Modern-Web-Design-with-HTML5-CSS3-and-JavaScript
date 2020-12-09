@@ -1,0 +1,12 @@
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators
+
+let val1 = 5;
+let val2 = 7;
+let val3 = 9;
+console.log(val2 * val1);
+console.log(val3 / 3);
+console.log(val3 % 3);
+console.log(val2 % 3);
+console.log(val1 % 3);

@@ -1,0 +1,39 @@
+HTML     
+<!DOCTYPE html>
+<html>
+ 
+<head>
+  <title>Code Examples</title>
+  <link rel="stylesheet" href="style1.css"> </head>
+ 
+<body>
+  <div class="parent">
+    <div class="box">Box Model 1</div>
+    <div class="box">Box Model 2</div>
+  </div>
+</body>
+ 
+</html>
+CSS
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  background-color: white;
+}
+ 
+.box {
+  width: 50%;
+  border: 5px dotted red;
+  display: inline-block;
+  height: 40px;
+  text-align: center;
+  border-bottom-color: aqua;
+  /*  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 20px;*/
+  padding: 5px 20px 10px 15px;
+  margin: 5px 0;
+}

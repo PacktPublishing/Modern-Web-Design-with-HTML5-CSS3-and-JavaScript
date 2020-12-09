@@ -1,0 +1,17 @@
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+const people = [1, 2, 34, "Laurence", "Laurence", "Laurence", "Laurence", "Laurence", "Laurence", 234243, 54, 45, 45, 46545, "Laurence", 0, "John", "Linda", "Joe"];
+const people1 = people.sort();
+people.reverse();
+console.log(people1);
+people.sort((a, b) => a - b); // b-a reverse numbers
+console.log(people);
+const people2 = people.filter(ele => Number(ele));
+const people3 = people.filter(ele => ele.length > 3);
+console.log(people3);
+const first = people.indexOf('Laurence');
+console.log(first);
+const finder = people.includes('Laurence');
+console.log(finder);
+const finder2 = people.lastIndexOf('Laurence');
+console.log(finder2);

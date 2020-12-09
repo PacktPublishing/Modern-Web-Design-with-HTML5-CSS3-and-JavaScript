@@ -1,0 +1,45 @@
+ECMAScript Editions
+
+Version 1 JS1 ECMAScript 1 (1997)
+
+Version 2 JS2 ECMAScript 2 (1998)
+
+Version 3 JS3 ECMAScript 3 (1999)
+
+Version 4 JS4 ECMAScript 4 (never released)
+
+Version 5 JS5 ECMAScript 5 (2009)
+
+Version 5.1 JS5.1 ECMAScript 5.1 (2011)
+
+Version 6 JS6 ECMAScript 2015
+
+Version 7 JS7 ECMAScript 2016
+
+Version 8 JS8 ECMAScript 2017
+
+Version 9 JS9 ECMAScript 2018
+
+Version 10 JS10 ECMAScript 2019
+
+https://en.wikipedia.org/wiki/ECMAScript
+
+https://en.wikipedia.org/wiki/Brendan_Eich
+
+https://en.wikipedia.org/wiki/ECMAScript
+
+Charts
+
+https://madnight.github.io/githut/#/pull_requests/2020/1
+
+https://insights.stackoverflow.com/survey/2020#most-popular-technologies
+
+Open DevTools https://developers.google.com/web/tools/chrome-devtools
+
+There are many ways to open DevTools, because different users want quick access to different parts of the DevTools UI.
+
+When you want to work with the DOM or CSS, right-click an element on the page and select Inspect to jump into the Elements panel. Or press Command+Option+C (Mac) or Control+Shift+C (Windows, Linux, Chrome OS).
+
+Resources for more about JavaScript
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference

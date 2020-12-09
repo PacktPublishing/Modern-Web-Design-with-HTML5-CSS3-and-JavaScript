@@ -1,0 +1,10 @@
+let myStr = "1000";
+let myNum = 100;
+myStr = Number(myStr);
+myStr = myStr + myNum;
+myStr = myStr.toString();
+//coercion
+myNum = String(myNum);
+console.log(myStr);
+console.log(typeof (myStr));
+console.log(typeof (myNum));

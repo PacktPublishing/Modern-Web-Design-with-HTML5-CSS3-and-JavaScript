@@ -1,0 +1,5 @@
+var myName = 'Laurence Svekis';
+alert(myName);
+document.write(myName);
+document.getElementById('message').innerHTML = myName;
+console.log(myName);

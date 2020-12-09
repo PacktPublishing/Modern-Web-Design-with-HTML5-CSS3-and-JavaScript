@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+nav a{
+  text-decoration: none;
+  font-size: 2em;
+  color: inherit;
+}
+
+nav div:hover{
+  background-color: red;
+  color:white;
+  cursor: grab;
+}
+
+
+
+
+
+nav div{
+  width:50%;
+  padding: 10px;
+  background-color: #ddd;
+  text-align: center;
+  float: left;
+  border: 1px solid white;
+}

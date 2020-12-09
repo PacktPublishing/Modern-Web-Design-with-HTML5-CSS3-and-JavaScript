@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+ 
+<head>
+  <title>test</title>
+  <style>
+    html {
+      font-size: 300%;
+    }
+    
+    .demo1 {
+      font-size: 1em;
+    }
+    
+    .demo2 {
+      font-size: 16px;
+    }
+    
+    .demo2 span {
+      font-size: larger;
+    }
+    
+    .demo3 {
+      font-size: 80%;
+    }
+    
+    .demo4 {
+      font-size: smaller;
+    }
+    
+    .demo5 {
+      font-size: large;
+    }
+    
+    .demo6 {
+      font-size: 1rem;
+    }
+  </style>
+</head>
+ 
+<body>
+  <div class="demo1">Hello World</div>
+  <div class="demo2">Hello <span>World</span></div>
+  <div class="demo3">Hello <span>World</span></div>
+  <div class="demo4">Hello <span>World</span></div>
+  <div class="demo5">Hello <span>World</span></div>
+  <div class="demo6">Hello <span>World</span></div>
+</body>
+ 
+</html>
+Fullscreen
+Expand
+196. CSS Font Sizes
+198. CS

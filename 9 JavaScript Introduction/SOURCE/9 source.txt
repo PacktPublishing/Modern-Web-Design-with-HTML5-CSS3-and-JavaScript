@@ -1,0 +1,29 @@
+These 6 types are considered to be primitives. A primitive is not an object.
+
+Boolean — true or false
+
+Null — no value
+
+Undefined — declared variable hasn’t been given a value
+
+Number — integers
+
+String — words and characters within quotes
+
+Symbol — unique value that's not equal to any other value
+
+let myName = 'Laurence'; //String Data type
+//myName = "Svekis"; //String Data Type
+//myName = undefined;
+//myName = null;
+let myNum = 1000;
+let a, b, c, d;
+let boo = true; //Boolean true or false
+console.log(typeof (boo));
+if (boo) {
+  console.log('Boo is set to TRUE');
+}
+//alert(myName);
+document.write(myName);
+document.getElementById('message').innerHTML = myName;
+console.log(myName);

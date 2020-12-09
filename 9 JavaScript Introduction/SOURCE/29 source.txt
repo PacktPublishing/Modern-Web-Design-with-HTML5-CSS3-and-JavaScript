@@ -1,0 +1,30 @@
+let total = 0;
+let a = 1000;
+let b = 1000;
+adder();
+console.log(total);
+
+function adder() {
+  total++;
+}
+console.log(cal(5, 10));
+
+function cal(a, b) {
+  let total = 0;
+  total += mul();
+  total += add();
+  total = total + subt();
+
+  function mul() {
+    return (a * b);
+  }
+
+  function add() {
+    return (a + b);
+  }
+
+  function subt() {
+    return (a - b);
+  }
+  return total;
+}

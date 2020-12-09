@@ -1,0 +1,26 @@
+/*.card::after {
+  content: 'AFTER';
+  background: red;
+  padding: 20px;
+}
+.card::before {
+  content: 'BEFORE';
+  background: blue;
+  padding: 20px;
+}
+.card::first-letter {
+  font-size: 3em;
+}
+*/
+
+::selection {
+  background-color: yellow;
+  color: white;
+  text-decoration: underline;
+}
+
+input::placeholder {
+  color: red;
+  font-size: 0.8em;
+  background-color: purple;
+}

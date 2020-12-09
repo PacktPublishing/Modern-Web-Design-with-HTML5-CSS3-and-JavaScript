@@ -1,0 +1,17 @@
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+
+.card:hover {
+  background-color: aliceblue;
+}
+
+a:hover {
+  color: red;
+}
+
+a:link {
+  color: green;
+}
+
+.card:first-child {
+  background-color: red;
+}

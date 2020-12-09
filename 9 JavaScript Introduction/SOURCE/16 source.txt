@@ -1,0 +1,38 @@
+*=
+
+Multiplication assignment.
+
+/=
+
+Division assignment.
+
+%=
+
+Remainder assignment.
+
++=
+
+Addition assignment.
+
+-=
+
+Operator	Example	Same As
+
+=	x = y	x = y
+
++=	x += y	x = x + y
+
+-=	x -= y	x = x - y
+
+*=	x *= y	x = x * y
+
+/=	x /= y	x = x / y
+
+%=	x %= y	x = x % y
+
+Subtraction assignment
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#Assignment_operators
+
+let val = 5;
+val*=5;

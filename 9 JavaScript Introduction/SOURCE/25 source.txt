@@ -1,0 +1,19 @@
+let val = 'test';
+let num = 0;
+
+function test1(){
+  add();
+  //val = 'test1';
+  console.log(`${val}${num}`); //2
+}
+
+function add(){
+  num++;
+}
+add();
+add();
+add();
+console.log(`${val}${num}`); //1
+test1();
+console.log(`${val}${num}`); //3
+test1(); //4

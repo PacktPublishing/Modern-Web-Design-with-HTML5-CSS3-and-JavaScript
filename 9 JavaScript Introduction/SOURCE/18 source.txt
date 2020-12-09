@@ -1,0 +1,38 @@
+let val = 1;
+if (val) {
+  console.log('was true');
+}
+if (!val) {
+  console.log('its False');
+}
+
+
+
+https://developer.mozilla.org/en-US/docs/Glossary/Falsy
+
+There are 8 falsy values:
+
+false	The keyword false
+
+0	The number zero
+
+-0	The number negative zero
+
+0n	BigInt, when used as a boolean, follows the same rule as a Number. 0n is falsy.
+
+""	Empty string value
+
+null	null - the absence of any value
+
+undefined	undefined - the primitive value
+
+NaN	NaN - not a number
+
+if (false)
+if (null)
+if (undefined)
+if (0)
+if (-0)
+if (0n)
+if (NaN)
+if ("")

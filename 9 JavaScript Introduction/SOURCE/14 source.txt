@@ -1,0 +1,5 @@
+let message = prompt('your number?');
+message = Number(message);
+let output = message + message;
+console.log(output);
+console.log(typeof(message));

@@ -1,0 +1,135 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Home Page</title>
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to my WebPage</h1> </header>
+  <nav>
+    <div><a href="index.html">Home</a></div>
+    <div><a href="about.html">About</a></div>
+  </nav>
+  <main>
+    <article>
+      <!-- add content HERE-->
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque varius morbi enim nunc faucibus a pellentesque. <img src="https://dummyimage.com/320x200/e02fe0/9d9fbd&text=placeholder+text"></p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque varius morbi enim nunc faucibus a pellentesque. <img src="https://dummyimage.com/320x200/e02fe0/9d9fbd&text=placeholder+text"></p>
+      <table>
+        <tr>
+          <td>Test 1</td>
+          <td>Test 2</td>
+        </tr>
+        <tr>
+          <td>Test 1</td>
+          <td>Test 2</td>
+        </tr>
+        <tr>
+          <td>Test 1</td>
+          <td>Test 2</td>
+        </tr>
+        <tr>
+          <td>Test 1</td>
+          <td>Test 2</td>
+        </tr>
+      </table>
+    </article>
+    <aside>
+      <!-- add content HERE-->
+      <p>Second column or aside </p>
+      <p>Second column or aside </p><img src="https://dummyimage.com/320x200/e02fe0/9d9fbd&text=placeholder+text"></aside>
+  </main>
+  <footer>
+    <div>©Copyright my Website - Address and contact me here.</div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>
+
+CSS
+
+* {
+  box-sizing: border-box;
+}
+
+main article p {
+  clear: both;
+}
+
+main article p:first-child img {
+  max-width: 200px;
+  float: left;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav div > a {
+  text-decoration: none;
+  font-size: 2em;
+  color: black;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid white;
+  display: block;
+}
+
+nav div >a:hover {
+  background-color: red;
+  color: white;
+  cursor: grab;
+}
+
+nav div {
+  width: 50%;
+  padding: 10px;
+  background-color: #ddd;
+  float: left;
+  border: 1px solid white;
+}
+
+main > * {
+  width: 50%;
+  float: left;
+  border: 1px solid black;
+  padding: 10px;
+  height: 500px;
+  overflow: hidden;
+}
+
+footer {
+  clear: both;
+  margin: 20px 0;
+  padding: 0 25px;
+  border: 1px solid black;
+  width: 90%;
+  left: 5%;
+  position: relative;
+  height: 200px;
+}
+
+footer > div {
+  width: 200px;
+  border: 1px solid black;
+  margin: auto;
+  text-align: center;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  nav div {
+    width: 100%;
+  }
+}

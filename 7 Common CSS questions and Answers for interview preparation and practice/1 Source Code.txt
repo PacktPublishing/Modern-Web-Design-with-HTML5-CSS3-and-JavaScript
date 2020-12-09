@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSS WebPage</title>
+  <style>
+    .purple {
+      color: purple;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css"> </head>
+
+<body>
+  <header class="header" style="color: red">
+    <h1 style="color: blue">My Website</h1>
+    <p class="purple">This is some basic Info</p>
+  </header>
+  <nav class="mainNav"> <a href="#">Home</a> <a href="#">About</a> <a href="#">Services</a> <a href="#">Contact</a> </nav>
+  <div class="content">
+    <section class="main">
+      <div class="card">
+        <h2>Section 1 Heading</h2>
+        <h5>More information</h5>
+        <div><img src="https://dummyimage.com/200x200/f00/fff&text=test" class="thumb">
+          <p>Adding Content Here....</p>
+          <p>More Dummy content nothing to see here.</p>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Section 2 Heading</h2>
+        <h5>More information</h5>
+        <div><img src="https://dummyimage.com/400x200/00f/fff&text=image2" class="thumb">
+          <p>Adding Content Here....</p>
+          <p>More Dummy content nothing to see here.</p>
+        </div>
+      </div>
+    </section>
+    <aside class="sidemenu">
+      <div class="card">
+        <h2>Side 1 Heading</h2>
+        <h5>More information</h5>
+        <div><img src="https://dummyimage.com/200x200/000/fff&text=test" class="thumb">
+          <p>Adding Content Here....</p>
+          <p>More Dummy content nothing to see here.</p>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Todays News</h2>
+        <div>
+          <ul>
+            <li><img src="https://dummyimage.com/300x200/0f0/fff&text=sideThumb" class="thumb"> </li>
+            <li><img src="https://dummyimage.com/300x200/033/fff&text=sideThumb" class="thumb"> </li>
+            <li><img src="https://dummyimage.com/300x200/021/fff&text=sideThumb" class="thumb"> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card">
+        <h2>NewsLetter</h2>
+        <div>
+          <input name="email" type="email">
+          <input type="button" value="subsribe"> </div>
+      </div>
+    </aside>
+  </div>
+  <footer class="footer">
+    <h2>Footer</h2>
+    <p>Main Company (c)</p>
+    <div>More details to contact me</div>
+  </footer>
+</body>
+
+</html>

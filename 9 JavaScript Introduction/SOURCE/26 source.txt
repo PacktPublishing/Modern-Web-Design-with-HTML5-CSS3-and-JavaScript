@@ -1,0 +1,13 @@
+let a = 5;
+let b = 10;
+let total = 0;
+
+function add(val1 = 1, val2 = 1) {
+  //val2 = val2 || 1;
+  //val2 = val2== undefined ? 0 : val2;
+  console.log(val2);
+  total += (val1 * val2);
+  console.log(total);
+}
+add(0, 0);
+add(50);
