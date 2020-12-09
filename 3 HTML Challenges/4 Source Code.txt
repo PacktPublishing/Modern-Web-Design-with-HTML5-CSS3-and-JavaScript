@@ -1,0 +1,34 @@
+http://draw.io/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>About Page</title><!-- Update Title-->
+</head>
+<body>
+  <header>
+    <h1>Welcome to my WebPage</h1>
+  </header>
+  <nav>
+    <div><a href="index.html">Home</a></div>
+    <div><a href="about.html">About</a></div>
+  </nav>
+  <main>
+    <article>
+    <!-- add content HERE-->
+    This is a new page about me
+    </article>
+    <aside>
+    <!-- add content HERE-->
+    Second column or aside more links
+    </aside>
+  </main>
+  <footer>
+    <div>©Copyright my Website - Address and contact me here.</div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

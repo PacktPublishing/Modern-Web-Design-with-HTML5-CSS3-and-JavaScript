@@ -1,0 +1,25 @@
+img {
+  width: 700px;
+}
+
+.test1 {
+  background: red;
+}
+
+@media screen and (max-width: 1080px) {
+  img {
+    width: 400px;
+  }
+  .test1 {
+    background: blue;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    width: 100%;
+  }
+  .test1 {
+    background: green;
+  }
+}

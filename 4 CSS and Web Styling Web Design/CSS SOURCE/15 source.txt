@@ -1,0 +1,46 @@
+#one {
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid black;
+  margin: 25px 50px 10px 100px;
+  background: yellow;
+  padding: 30px 10px;
+}
+
+.test5 {
+  background-color: aqua;
+  padding: 300px;
+}
+
+h1 {
+  background-color: blueviolet;
+  border: 1px solid black;
+}
+
+.test1 {
+  padding-top: 40px;
+  margin-top: 40px;
+  border: 1px solid black;
+  background-color: aliceblue;
+}
+
+.test2 {
+  padding-right: 40px;
+  margin-right: 40px;
+  border: 1px solid red;
+  background-color: red;
+}
+
+.test3 {
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border: 1px solid blue;
+  background-color: blue;
+}
+
+.test4 {
+  padding-left: 40px;
+  margin-left: 40px;
+  border: 1px solid green;
+  background-color: green;
+}

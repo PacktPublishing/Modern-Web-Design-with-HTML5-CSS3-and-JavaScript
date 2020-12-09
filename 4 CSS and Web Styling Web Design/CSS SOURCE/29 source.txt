@@ -1,0 +1,87 @@
+INDEX
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> CSS Exercise 2 </title>
+  <link rel="stylesheet" href="style.css" type="text/css"> </head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="test1">
+    <h2>Page Title Section 1</h2>
+    <p class="highlight">First paragraph <a href="http://www.google.com">Google</a></p>
+    <p class="bigText">second paragraph</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique sapien ac erat tincidunt, sit amet dignissim lectus vulputate<img src="https://dummyimage.com/300x200/914791/5b65eb&text=test+image">. Donec id iaculis velit. Aliquam vel malesuada erat. Praesent non magna ac massa aliquet tincidunt vel in massa. Phasellus feugiat est vel leo finibus congue.</p>
+  </section>
+  <section class="test2">
+    <h3>Section Heading 2</h3>
+    <p class="oneText">First <span class="highlight">paragraph</span></p>
+    <p class="twoText">second paragraph</p>
+    <p class="twoText">second paragraph</p>
+    <p class="twoText">second paragraph</p>
+    <p class="twoText">second paragraph</p>
+    <p class="twoText">second paragraph</p>
+    <p class="twoText">second paragraph</p>
+    <p class="twoText">second paragraph</p>
+    <p class="twoText">second paragraph</p>
+    <p class="twoText">second paragraph</p>
+    <p class="twoText">second paragraph</p>
+  </section>
+  <section class="test3">
+    <h3>Section Heading 3</h3>
+    <div>I'm a div</div>
+    <div>I'm a div</div>
+    <div>I'm a div</div>
+    <div>I'm a div</div> <span>I'm a span</span>
+    <div>I'm a div</div>
+    <div>I'm a div</div>
+    <div>I'm a div</div> <span>I'm a span</span> <span>I'm a span</span> <span>I'm a span</span> <span>I'm a span</span> <span>I'm a span</span> </section>
+  <section class="test4">
+    <h3>Section Heading 4</h3>
+    <p class="oneText">First <span class="highlight">paragraph</span></p>
+    <p class="twoText">second paragraph</p>
+  </section>
+  <footer>
+    <p>My company footer</p>
+  </footer>
+</body>
+
+</html>
+
+
+CSS
+
+.test1 img {
+  float: right;
+}
+
+.test1 {
+  overflow: auto;
+  background: yellow;
+}
+
+.test2 {
+  width: 500px;
+  float: right;
+  background: blue;
+}
+
+.test3 {
+  width: 500px;
+  clear: both;
+  background: green;
+}

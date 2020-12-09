@@ -1,0 +1,57 @@
+h1 {
+  font-family: Arial;
+  font-style: italic;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+p {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.test6 {
+  font: italic bold 2em Arial, sans-serif;
+}  
+
+INDEX
+
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <title>CSS Course Content</title>
+  <link rel="stylesheet" href="style.css"> </head>
+
+<body>
+  <div class="test1 ">
+    <h1>Welcome to CSS 1</h1> </div>
+  <div class="test2">
+    <h1>Welcome to CSS 2</h1> </div>
+  <div class="test3">
+    <h1>Welcome to CSS 3</h1> </div>
+  <div class="test4">
+    <h1>Welcome to CSS 4</h1> </div>
+  <input type="text" name="first">
+  <input type="text" name="last">
+  <input type="email" name="email">
+  <div class="test5">
+    <p id="one" class="red"><a href="index.html">Test Text 1</a>BLUE</p>
+  </div>
+  <p class="red"><a href="index.html?id=22">Test Text 2</a></p>
+  <p class="blue "><a href="index.html">Test Text 3</a></p>
+  <p class="red "><a href="index.html">Test Text 4</a></p>
+  <div class="blue">
+    <p class="first">paragraph BLUE</p>
+    <div>Test1 test5000</div>
+    <div>Test2</div>
+  </div>
+  <div class="first">
+    <p>Test Text 1 BLUE</p>
+    <p class="first">Test Text 2</p>
+    <div class="test6">Test1 This is test content blah blah blah </div>
+    <div>Test2</div>
+  </div>
+</body>
+
+</html>

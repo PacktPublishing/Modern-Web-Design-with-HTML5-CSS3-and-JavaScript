@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-content: end;
+  justify-content: center;
+  /*
+    
+  grid-template-rows: 100px auto;
+    grid-gap: 20px 30px;
+  */
+  height: 600px;
+  background: red;
+}
+
+.container > div {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  background: white;
+  overflow: hidden;
+}

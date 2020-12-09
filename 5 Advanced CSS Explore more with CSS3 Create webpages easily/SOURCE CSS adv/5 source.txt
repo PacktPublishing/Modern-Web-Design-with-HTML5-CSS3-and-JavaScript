@@ -1,0 +1,86 @@
+The animation shorthand CSS property applies an animation between styles. It is a shorthand for animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction, animation-fill-mode, and animation-play-state.
+
+Initial value	as each of the properties of the shorthand:
+
+animation-name: none
+
+animation-duration: 0s
+
+animation-timing-function: ease
+
+animation-delay: 0s
+
+animation-iteration-count: 1
+
+animation-direction: normal
+
+animation-fill-mode: none
+
+animation-play-state: running
+
+Applies to	all elements, ::before and ::after pseudo-elements
+
+Inherited	no
+
+Computed value	as each of the properties of the shorthand:
+
+animation-name: as specified
+
+animation-duration: as specified
+
+animation-timing-function: as specified
+
+animation-delay: as specified
+
+animation-direction: as specified
+
+animation-iteration-count: as specified
+
+animation-fill-mode: as specified
+
+animation-play-state: as specified
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/animation
+
+/* @keyframes duration | timing-function | delay | 
+iteration-count | direction | fill-mode | play-state | name */
+animation: 3s ease-in 1s 2 reverse both paused slidein;
+
+/* @keyframes name | duration | timing-function | delay */
+animation: 3s linear 1s slidein;
+
+/* @keyframes name | duration */
+animation: slidein 3s;
+
+@keyframes example {
+  0% {
+    width: 100px;
+    left: 100px;
+  }
+  25% {
+    width: 200px
+  }
+  50% {
+    width: 300px
+  }
+  75% {
+    width: 400px;
+    left: 400px;
+  }
+  100% {
+    width: 500px
+  }
+}
+
+.one {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 50px;
+  height: 200px;
+  animation-name: example;
+  animation-duration: 2s;
+  background: red;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}

@@ -1,0 +1,20 @@
+h1 {
+  height: inherit;
+  width: 50%;
+  background: red;
+}
+
+.test {
+  background: blue;
+  width: 500px;
+}
+
+.test2 {
+  background: green;
+  max-width: 500px;
+}
+
+.test3 {
+  background: green;
+  min-width: 500px;
+}

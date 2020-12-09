@@ -1,0 +1,50 @@
+.one {
+  transform: rotateX(180deg);
+  background: red;
+}
+
+.two {
+  transform: rotateY(180deg);
+  background: green;
+  text-align: center;
+  width: 200px;
+}
+
+.three {
+  transform: rotateZ(180deg);
+  background: yellow;
+  text-align: center;
+  width: 200px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.four {
+  transform: scale3d(1, 2, 3);
+  background: pink;
+  text-align: center;
+  width: 200px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.five {
+  transform: scaleZ(3);
+  background: purple;
+  text-align: center;
+  width: 200px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.six {
+  background: blue;
+}
+
+footer {
+  background: aqua;
+  text-align: center;
+  width: 200px;
+  height: 100px;
+  overflow: hidden;
+}

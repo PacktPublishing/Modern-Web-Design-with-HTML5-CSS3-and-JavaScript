@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home Page</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to my WebPage</h1>
+  </header>
+  <nav>
+    <div><a href="index.html">Home</a></div>
+    <div><a href="about.html">About</a></div>
+  </nav>
+  <main>
+    <article>
+    <!-- add content HERE-->
+    Main content blah blah blah
+    </article>
+    <aside>
+    <!-- add content HERE-->
+    Second column or aside
+    </aside>
+  </main>
+  <footer>
+    <div>©Copyright my Website - Address and contact me here.</div>
+  </footer>
+</body>
+</html>

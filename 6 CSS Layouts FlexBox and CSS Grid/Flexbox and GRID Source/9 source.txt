@@ -1,0 +1,41 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background: red;
+}
+
+.three {
+  grid-area: 1 / 2 / 3 / 4;
+}
+
+
+/*
+.one {
+  grid-row: 1 /4 ;
+}
+.three {
+  grid-row: 1 / span 2;
+}
+
+.one{
+  grid-column: 1 / 4;
+}
+.four {
+  grid-column: 2 / 5;
+}
+.five {
+  grid-column: 1 / span 2;
+}
+.six {
+  grid-column: 3 / span 2;
+}
+
+*/
+
+.container > div {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  background: white;
+  overflow: hidden;
+}

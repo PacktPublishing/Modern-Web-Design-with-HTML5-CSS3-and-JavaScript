@@ -1,0 +1,42 @@
+header,
+footer {
+  display: none;
+}
+
+.one {
+  grid-area: header;
+}
+
+.two {
+  grid-area: theMenu;
+}
+
+.three {
+  grid-area: main;
+}
+
+.four {
+  grid-area: mainLeft;
+}
+
+.five {
+  grid-area: mainRight;
+}
+
+.six {
+  grid-area: footer;
+}
+
+.container {
+  display: grid;
+  grid-template-areas: 'header header header header header ' 'theMenu main main main main ' 'mainLeft mainLeft mainLeft mainRight mainRight' 'footer footer footer footer footer ';
+  background: red;
+}
+
+.container > div {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  background: white;
+  overflow: hidden;
+}

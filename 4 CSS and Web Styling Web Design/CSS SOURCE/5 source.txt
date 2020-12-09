@@ -1,0 +1,17 @@
+.first {
+  color: red;
+  background: yellow;
+}
+
+#one {
+  color: purple;
+}
+
+#two {
+  color: green;
+}
+
+h1 {
+  color: red;
+  background: yellow;
+}

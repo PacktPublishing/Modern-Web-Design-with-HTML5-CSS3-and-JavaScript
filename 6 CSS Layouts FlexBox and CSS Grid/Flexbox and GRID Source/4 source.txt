@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: stretch;
+  height: 300px;
+  background: red;
+}
+
+.one {
+  flex-basis: 400px;
+}
+
+.two {
+  flex: 0 1 400px;
+}
+
+.three {
+  align-self: center;
+}
+
+.four {
+  align-self: flex-end;
+}
+
+.five {
+  flex-shrink: 0;
+}
+
+.six {
+  align-self: flex-start;
+}
+
+
+/*
+.one {
+  flex-grow: 2;
+}
+.two , .three, .four{
+  flex-grow: 1;
+}
+.two {
+  order: 1;
+}
+.one {
+  order: 4;
+}
+.six {
+  order:100;
+}
+*/
+
+.container > div {
+  border: 1px solid black;
+  width: 200px;
+  background: white;
+  overflow: hidden;
+}

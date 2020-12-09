@@ -1,0 +1,26 @@
+.test1::first-letter {
+  background: red;
+}
+
+div::selection {
+  background: yellow;
+}
+
+::-moz-selection {
+  background: yellow;
+}
+
+
+/*
+div::first-line {
+  color:red;
+}
+*/
+
+.test2::before {
+  content: "NEW";
+}
+
+.test2::after {
+  content: "AFTER!!!!!";
+}

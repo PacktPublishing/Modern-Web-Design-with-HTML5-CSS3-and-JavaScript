@@ -1,0 +1,10 @@
+.container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+}
+
+.container > div {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}

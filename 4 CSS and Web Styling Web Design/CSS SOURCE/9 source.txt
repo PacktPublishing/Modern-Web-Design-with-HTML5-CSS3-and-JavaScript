@@ -1,0 +1,27 @@
+https://dummyimage.com/
+
+https://devdocs.io/css/background-color
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/background-size
+
+h1 {
+  background-color: aqua;
+  background-image: url("https://dummyimage.com/600x200/004cf0/ffffff.png&text=test");
+  height: 500px;
+  background-size: 100px 500px;
+  background-repeat: no-repeat;
+}
+
+.blue {
+  background: blue url("https://dummyimage.com/600x200/004cf0/ffffff.png&text=test") no-repeat fixed right bottom;
+  height: 400px;
+}
+
+.first {
+  background-color: beige;
+  background-image: url("https://dummyimage.com/200x100/f000f0/303eff.png&text=test");
+  background-repeat: repeat;
+  background-position: left;
+  background-attachment: fixed;
+  height: 400px;
+}

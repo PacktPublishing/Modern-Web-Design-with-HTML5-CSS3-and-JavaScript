@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Course Content</title>
+ </head>
+
+<body>
+  <h1>Red</h1>
+  <div class="red">
+    <div>Test1</div>
+    <div>Test2</div>
+  </div>
+  <h1>Blue</h1>
+  <div class="blue">
+    <div>Test1</div>
+    <div>Test2</div>
+  </div>
+  <h1>Green</h1>
+  <div class="green">
+    <div>Test1</div>
+    <div>Test2</div>
+  </div>
+</body>
+
+</html>
+
+AFTER
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Course Content</title>
+  <link rel="stylesheet" href="c1.css" >
+ </head>
+
+<body>
+  <h1 class="redText">Red</h1>
+  <div class="red">
+    <div>Test1</div>
+    <div>Test2</div>
+  </div>
+  <h1 class="blueText">Blue</h1>
+  <div class="blue">
+    <div>Test1</div>
+    <div>Test2</div>
+  </div>
+  <h1 class="greenText">Green</h1>
+  <div class="green">
+    <div>Test1</div>
+    <div>Test2</div>
+  </div>
+</body>
+
+</html>
+
+
+
+CSS File
+
+.redText {
+  color: red;
+  background : white;
+}
+.red {
+  background: #ff0000;
+  color: #ffffff;
+}
+.greenText {
+  color: rgb(0,255,0);
+  background : white;
+}
+.green {
+  background: #00ff00;
+  color: #ffffff;
+}
+.blueText {
+  color: blue;
+  background : white;
+}
+.blue {
+  background: #0000ff;
+  color: #ffffff;
+}

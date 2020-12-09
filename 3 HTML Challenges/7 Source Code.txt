@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+ 
+<head>
+  <title>test</title>
+</head>
+ 
+<body>
+  <div class="demo1" contenteditable="true">Hello World</div>
+  <ul contenteditable="true">
+    <li>One</li><li>Two</li><li>Three</li>
+  </ul>
+</body>
+ 
+</html>

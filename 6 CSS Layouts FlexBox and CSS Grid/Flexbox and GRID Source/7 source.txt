@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  /*
+  grid-row-gap: 20px;
+  grid-column-gap: 30px;
+  */
+  grid-gap: 20px 30px;
+  background: red;
+}
+
+.one {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.two {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.container > div {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  background: white;
+}

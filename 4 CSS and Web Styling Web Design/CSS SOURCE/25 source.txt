@@ -1,0 +1,31 @@
+nav {
+  width: 100%;
+  background-color: darkgray;
+  height: 70px;
+  font-family: Arial;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 200px;
+}
+
+nav ul li a:hover {
+  background-color: dimgray;
+}
+
+nav ul li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  color: white;
+  background-color: black;
+  height: 40px;
+  line-height: 50px;
+}

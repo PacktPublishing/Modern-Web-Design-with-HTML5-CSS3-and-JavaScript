@@ -1,0 +1,37 @@
+Resources
+
+CSS Default Values Reference https://www.w3schools.com/cssref/css_default_values.asp
+
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta name="author" content="Laurence Svekis">
+  <title>CSS Course Content</title>
+  <link rel="icon shortcut" href="">
+  <link rel="stylesheet" href="style.css"> </head>
+
+<body>
+  <h1>Welcome to CSS</h1>
+  <p class="first">paragraph</p>
+  <p>Test Text 1</p>
+  <p>Test Text 2</p>
+  <p>Test Text 3</p>
+  <p>Test Text 4</p>
+  <div>
+    <div>Test1</div>
+    <div>Test2</div>
+  </div>
+</body>
+
+</html>
+
+
+
+
+Style.css
+
+.test {
+    color: red;
+    background: yellow;
+}

@@ -1,0 +1,64 @@
+HTML
+
+<!doctype html>
+<html>
+
+<head>
+  <title>CSS Advanced</title>
+  <link rel="stylesheet" type="text/css" href="style.css"> </head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="one">
+      <h1>One</h1>
+      <p>One Paragraph content</p>
+    </div>
+    <div class="two">
+      <h1>Two</h1>
+      <p>Two Paragraph content</p>
+    </div>
+    <div class="three">
+      <h1>Three</h1>
+      <p>Three Paragraph content</p>
+    </div>
+    <div class="four">
+      <h1>Four</h1>
+      <p>Four Paragraph content</p>
+    </div>
+    <div class="five">
+      <h1>Five</h1>
+      <p>Five Paragraph content</p>
+    </div>
+    <div class="six">
+      <h1>Six</h1>
+      <p>Six Paragraph content</p>
+    </div>
+  </div>
+  <footer>
+    <p>My company footer</p>
+  </footer>
+</body>
+
+</html>
+
+CSS
+
+.container {
+  display: flex;
+  flex-direction:row-reverse;
+}
+
+.container > div {
+  flex: 1;
+  border: 1px solid black;
+}

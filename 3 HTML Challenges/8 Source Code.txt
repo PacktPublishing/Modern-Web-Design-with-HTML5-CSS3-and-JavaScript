@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+  <title>test</title>
+</head>
+ 
+<body>
+  <form oninput="val.value = x.value - y.value">
+    <input type="text" maxlength="3">
+    <input type="number" id="x" value="100" min=0 max=100> - 
+    <input type="number" id="y" value="100" min=0 max=100> =
+    <output name="val" for="x y"></output>
+  </form>
+</body>
+ 
+</html>

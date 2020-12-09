@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 300px;
+  background: red;
+  /*
+  flex-wrap: wrap-reverse;
+  flex-flow: row wrap;
+  
+  */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container > div {
+  border: 1px solid black;
+  width: 100px;
+  background: white;
+  overflow: hidden;
+}

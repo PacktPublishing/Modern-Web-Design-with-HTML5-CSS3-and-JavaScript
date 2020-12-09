@@ -1,0 +1,47 @@
+.one {
+  height: 400px;
+  width: 100%;
+  background: radial-gradient(green, red);
+}
+
+.two {
+  height: 400px;
+  width: 100%;
+  background: radial-gradient(green 20px, red 25%, #0000FF 40%);
+}
+
+.three {
+  height: 400px;
+  width: 100%;
+  background: radial-gradient(at 0% 20%, green 20px, red 25%, #0000FF 40%);
+}
+
+.four {
+  height: 400px;
+  width: 100%;
+  background: radial-gradient(ellipse closest-side, green 10%, red);
+}
+
+.five {
+  height: 400px;
+  width: 100%;
+  background: conic-gradient( green, red);
+}
+
+.six {
+  height: 400px;
+  width: 100%;
+  background: conic-gradient(at 0% 40%, green, red, blue, purple);
+}
+
+footer {
+  height: 400px;
+  width: 100%;
+  background: repeating-linear-gradient(to left, red 5px, blue 15px, yellow 10px);
+}
+
+header {
+  height: 400px;
+  width: 100%;
+  background: repeating-radial-gradient(red 5px, blue 15px, yellow 10px);
+}

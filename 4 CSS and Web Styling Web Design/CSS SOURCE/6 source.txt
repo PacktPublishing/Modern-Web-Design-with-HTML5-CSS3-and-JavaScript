@@ -1,0 +1,32 @@
+https://developer.mozilla.org/en-US/docs/Web/CSS/color_value - color values names
+
+https://coolors.co/e8e8e8-bfbfbf-96939b-564256-fc814a - color palette
+
+https://www.google.com/search?q=hex+color+picker&oq=hex+color&aqs=chrome.0.0j69i57j0l6.3863j0j7&sourceid=chrome&ie=UTF-8 - color picker
+
+.first {
+  color: fuchsia;
+  background: #e03dcb;
+  /* #000000 - #FFFFFF */
+  /*Hexadecimal notation: #RRGGBB[AA]*/
+  /* hexadecimal characters (0–9, A–F) */
+}
+
+#one {
+  color: purple;
+  background: rgb(255, 0, 0);
+  /* #FF0000 */
+  /* rgb[a](R, G, B[, A]) */
+}
+
+#two {
+  color: green;
+  background: rgba(255, 0, 0, 0.5);
+  /* #FF0000 */
+}
+
+h1 {
+  color: white;
+  background: hsl(0, 100%, 50%);
+  /*Red color 0 - start of spectrum hue */
+}

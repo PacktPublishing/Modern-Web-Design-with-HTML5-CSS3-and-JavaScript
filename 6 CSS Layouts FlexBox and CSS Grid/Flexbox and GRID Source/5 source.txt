@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Gallery</title>
+  <link rel="stylesheet" href="flexgal.css" type="text/css"> </head>
+
+<body>
+  <header> Welcome to my Gallery </header>
+  <section class="gallery">
+    <div class="col"> <img src="https://dummyimage.com/600x400/000/fff"> <img src="https://dummyimage.com/400x400/333/fff"> <img src="https://dummyimage.com/500x400/555/fff"> </div>
+    <div class="col"> <img src="https://dummyimage.com/600x600/aaa/fff"> <img src="https://dummyimage.com/600x300/ccc/fff"> <img src="https://dummyimage.com/600x200/ddd/fff"> <img src="https://dummyimage.com/600x800/234/fff"></div>
+    <div class="col"> <img src="https://dummyimage.com/200x200/1f4/fff"> <img src="https://dummyimage.com/300x300/5d3/fff"> </div>
+  </section>
+  <footer> Contact me to get more images (c)2021 Copyright </footer>
+</body>
+
+</html>
+
+
+
+CSS
+
+* {
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  background: black;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.col {
+  flex: 33.3%;
+  padding: 5px;
+}
+
+img {
+  width: 100%;
+}
+
+@media (max-width: 680px) {
+  .col {
+    flex: 100%;
+  }
+}

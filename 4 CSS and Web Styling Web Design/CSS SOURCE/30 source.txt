@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: #ddd;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  padding: 5px;
+  background: red;
+  text-decoration: none;
+  color: white;
+}
+
+nav li a:hover {
+  background: darkred;
+  color: azure;
+}
+
+footer {
+  background: black;
+  color: white;
+  clear: both;
+  text-align: center;
+  height: 70px;
+}
+
+.test1 {
+  background: yellow;
+  text-align: center;
+  padding: 40px;
+  font-size: 2em;
+}
+
+.test2,
+.test3,
+.test4 {
+  float: left;
+  width: 33.3%;
+  border: 1px solid black;
+}

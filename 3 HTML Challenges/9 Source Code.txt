@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+  <title>test</title>
+</head>
+ 
+<body>
+  <canvas id="myCanvas"></canvas>
+  <script>
+    const canvas = document.querySelector('#myCanvas');
+    canvas.setAttribute('height',300);
+    canvas.setAttribute('width',300);
+    canvas.style.backgroundColor = 'black';
+    console.log(canvas);
+    const ctx = canvas.getContext('2d');
+    ctx.fillStyle = 'red';
+    ctx.fillRect(0,0,100,100);
+  </script>
+</body>
+ 
+</html>

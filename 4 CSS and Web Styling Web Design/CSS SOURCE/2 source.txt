@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta name="author" content="Laurence Svekis">
+  <title>CSS Course Content</title>
+  <link rel="icon shortcut" href="http://www.discoveryvip.com/assets/fav/favicon.ico">
+  <style></style>
+</head>
+<body>
+  <h1>Welcome to CSS</h1> 
+  <p style="color:blue;background: red;">paragraph</p>
+  </body>
+</html>

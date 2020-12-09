@@ -1,0 +1,11 @@
+There are several rules ( applied in this order ) :
+
+inline css ( html style attribute ) overrides css rules in style tag and css file
+
+a more specific selector takes precedence over a less specific one
+
+rules that appear later in the code override earlier rules if both have the same specificity.
+
+A css rule with !important always takes precedence.
+
+https://specificity.keegan.st/

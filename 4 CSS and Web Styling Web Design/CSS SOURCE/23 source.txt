@@ -1,0 +1,23 @@
+h1 {
+  width: 80%;
+  border: 1px solid black;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 1px red;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.test6 {
+  text-indent: 50px;
+}
+
+.test1 {
+  text-decoration: line-through;
+  line-height: 150px;
+  font-size: 25px;
+}

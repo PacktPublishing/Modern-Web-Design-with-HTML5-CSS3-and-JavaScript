@@ -1,0 +1,35 @@
+#one {
+  width: 50%;
+  border: 1px solid black;
+  margin: 25px 50px 10px 100px;
+}
+
+h1 {
+  width: 50%;
+  border: 1px solid black;
+  margin: auto;
+}
+
+.test1 {
+  margin-top: 40px;
+  border: 1px solid black;
+  background-color: aliceblue;
+}
+
+.test2 {
+  margin-right: 40px;
+  border: 1px solid red;
+  background-color: red;
+}
+
+.test3 {
+  margin-bottom: 40px;
+  border: 1px solid blue;
+  background-color: blue;
+}
+
+.test4 {
+  margin-left: 40px;
+  border: 1px solid green;
+  background-color: green;
+}

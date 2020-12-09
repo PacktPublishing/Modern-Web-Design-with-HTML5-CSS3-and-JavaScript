@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>CSS Layouts</title>
+  <link rel="stylesheet" type="text/css" href="style.css"> </head>
+
+<body>
+  <div class="wrapper">
+    <header class="main-head">Header Company Logo</header>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+    <article class="content">
+      <h1>Main area</h1>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+    </article>
+    <div class="ads">Advertising Here</div>
+    <aside class="side">Sidebar</aside>
+    <footer class="main-footer">The footer (c) My Company 2025</footer>
+  </div>
+</body>
+
+</html>
+
+
+
+
+HTML
+
+<!doctype html>
+<html>
+
+<head>
+  <title>CSS Layouts</title>
+  <link rel="stylesheet" type="text/css" href="style.css"> </head>
+
+<body>
+  <div class="wrapper">
+    <header class="main-head">Header Company Logo</header>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+    <article class="content">
+      <h1>Main area</h1>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+    </article>
+    <div class="ads">Advertising Here</div>
+    <aside class="side">Sidebar</aside>
+    <footer class="main-footer">The footer (c) My Company 2025</footer>
+  </div>
+</body>
+
+</html>
+
+CSS
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Rubik', sans-serif;
+}
+.wrapper{
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 15% 35% 35% 15%; 
+  grid-template-areas: 
+  'header header header header'
+  'nav nav nav nav'
+  'side content content ads'
+  'footer footer footer footer';
+  
+}
+.main-nav {
+  grid-area: nav;
+}
+.main-nav ul{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: black;
+  color:white;
+}
+
+.main-nav a {
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  text-decoration: none;
+  color:white;
+  padding: 5px 10px;
+}
+.main-nav a:hover{
+  background: #ccc;
+}
+.main-head{
+  grid-area: header;
+  background: blue;
+  padding: 40px;
+  font-size: 3em;
+  text-align: center;
+}
+
+.content{
+  grid-area: content;
+}
+.ads{
+  grid-area: ads;
+  background: purple;
+  min-height: 200px;
+}
+.side{
+  grid-area: side;
+    background: pink;
+      min-height: 200px;
+      text-align: center;
+}
+
+.main-footer {
+  grid-area: footer;
+  background: red;
+  padding: 40px;
+  font-size: 3em;
+  text-align: center;
+}
+
+
+@media (max-width: 600px){
+ .main-nav ul{
+  flex-direction: column;
+ }
+ .wrapper{
+   grid-template-columns: auto; 
+  grid-template-areas: 
+  'header'
+  'nav'
+  'content'
+  'side'
+  'ads'
+  'footer';
+}
+ 
+}
+

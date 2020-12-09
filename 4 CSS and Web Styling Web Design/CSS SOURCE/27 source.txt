@@ -1,0 +1,41 @@
+.test1 {
+  background: red;
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
+
+.test2 {
+  background: blue;
+  position: fixed;
+  left: 150px;
+  top: 50px;
+  width: 500px;
+  z-index: 2;
+}
+
+.test3 {
+  z-index: 1;
+  background: green;
+  position: absolute;
+  left: 150px;
+  top: 50px;
+  width: 500px;
+}
+
+.test4 {
+  background: yellow;
+  position: sticky;
+  left: 250px;
+  top: 50px;
+  width: 100px;
+}
+
+footer {
+  height: 600px;
+}
+
+section {
+  min-height: 400px;
+  border: 1px solid black;
+}

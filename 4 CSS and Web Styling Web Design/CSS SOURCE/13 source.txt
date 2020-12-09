@@ -1,0 +1,23 @@
+.blue {
+  border-radius: 60px;
+  height: 100px;
+  width: 100px;
+  border: 5px solid red;
+  background-color: yellow;
+}
+
+.test {
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+}
+
+.test2 {
+  border: 5px solid black;
+  border-radius: 25px 10px 50px 5px;
+}
+
+.test3 {
+  border: 5px dotted red;
+  border-top-left-radius: 25px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+table,td{
+  border: 1px solid black;
+  text-align: center;
+}
+
+table {
+  width: 400px;
+  margin: auto;
+}
+
+td {
+  width:33%;
+}
+</style>
+  <title>Table Tester</title>
+</head>
+
+<body>
+  <table>
+    <colgroup>
+      <col span="2" style="background-color: red">
+        <col style="background-color: blue">
+    </colgroup>
+    <tr>
+      <td>Test 1</td>
+      <td>Test 2</td>
+      <td>Test 3</td>
+    </tr>
+    <tr>
+      <td>Test 1</td>
+      <td>Test 2</td>
+      <td>Test 3</td>
+    </tr>
+  </table>
+  <table>
+    <caption>This is my Table</caption>
+    <tr>
+      <td>Test 1</td>
+      <td>Test 2</td>
+      <td>Test 3</td>
+    </tr>
+    <tr>
+      <td>Test 1</td>
+      <td rowspan="2">Test 2</td>
+      <td>Test 3</td>
+    </tr>
+    <tr>
+      <td>Test 1</td>
+      <td>Test 3</td>
+    </tr>
+    <tr>
+      <td>Test 1</td>
+      <td>Test 2</td>
+      <td>Test 3</td>
+    </tr>
+  </table>
+  <br>
+  <br>
+  <hr>
+  <table>
+    <thead>
+      <tr>
+        <th colspan="2">This is the header of the Table</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>First Cell</td>
+        <td>Second Cell</td>
+      </tr>
+      <tr>
+        <td>555</td>
+        <td>Whatever</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2">Footer 1</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+
+</html>
