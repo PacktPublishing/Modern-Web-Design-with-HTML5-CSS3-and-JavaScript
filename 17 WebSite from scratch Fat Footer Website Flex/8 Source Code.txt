@@ -1,0 +1,24 @@
+.social-section {
+  justify-content: center;
+}
+
+.social-section ul{
+  display: flex;
+  border-top: 1px solid #033F63;
+}
+.social-section ul li{
+  margin: 1em;
+  font-size: 2em;
+  background-color: aliceblue;
+  padding:5px;
+  border-radius: 5px;
+  min-width:50px;
+  text-align: center;
+
+}
+.social-section ul li a{
+  color:#033F63;
+}
+.social-section ul li a:hover{
+  color:#28666E;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSS Grid Website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Content for site -->
+<div class="wrapper">
+  <header class="header">The Company</header>
+  <nav class="navbar"></nav>
+  <article class="main"><h1>Content Area</h1></article>
+  <aside class="sidemenu"><h3>Newsletter and Blog</h3></aside>
+  <div class="ad"><h3>My Ads</h3></div>
+  <footer class="footer">&copy; 2020 Copyright my Website</footer>
+</div>
+
+
+</body>
+</html>

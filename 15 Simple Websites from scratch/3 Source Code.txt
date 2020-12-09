@@ -1,0 +1,130 @@
+HTML
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Website</title>
+  <link rel="stylesheet" href="style.css"> </head>
+
+<body>
+  <header class="header">My Header</header>
+  <nav>
+    <div class="navbar"><a href="#">Home</a> <a href="#">About</a> <a href="#">Contact</a></div>
+  </nav>
+  <article class="main">
+    <div class="col">
+      <h2>Column 1</h2>
+      <p> Interdum leo litora litora nibh class conubia eleifend sapien eget sem quisque. Aliquam tempor maecenas facilisis mollis sagittis ultricies cubilia! Nunc mollis quam facilisi parturient aenean volutpat diam sed suspendisse fringilla. Quis libero elementum sollicitudin, dolor cubilia. Sagittis nibh netus sollicitudin vivamus fusce cubilia cum vehicula integer porttitor dignissim condimentum. Aptent vulputate potenti pulvinar imperdiet lacinia ullamcorper lectus eget. Metus ullamcorper semper amet class adipiscing sed eget senectus massa viverra eros. Congue diam tellus tempor fermentum parturient facilisis ornare est eleifend enim tristique. Hac dis dictumst tempor suscipit nec phasellus facilisis quisque tempor. Eu per aptent. </p>
+    </div>
+    <div class="col">
+      <h2>Column 2</h2>
+      <p> Leo; viverra fames integer sociis curae; lobortis. Accumsan pulvinar nullam aptent congue commodo dis cum himenaeos magnis aptent. Etiam tellus sollicitudin phasellus ultricies suspendisse quisque sollicitudin purus turpis dis dapibus sociosqu. Phasellus, per bibendum tellus quisque mattis fames duis. Eu nullam habitant, sodales rutrum faucibus sem. Mus facilisis amet elit elementum sem consectetur fames! Ultrices lobortis tristique rhoncus. Lacus tincidunt habitant ultrices senectus mauris gravida neque commodo mollis iaculis. Himenaeos porta imperdiet sit. Dignissim porttitor turpis. </p>
+    </div>
+    <div class="col">
+      <h2>Column 3</h2>
+      <p> Gravida aliquet aliquam, euismod habitasse vehicula. Taciti phasellus litora, ac convallis molestie consequat. Habitasse hendrerit mus eleifend ad mattis volutpat. Phasellus viverra aliquam parturient risus taciti morbi augue netus. Parturient lorem varius donec ut per ut sagittis sociosqu mi duis id. Lorem odio platea inceptos sem per sapien odio ad egestas nullam nulla. Nulla eget placerat morbi lectus? Fames aptent luctus euismod nullam class fames tincidunt vitae imperdiet ultricies aenean risus. Nunc facilisi laoreet non. Malesuada non facilisis dignissim sed eu nunc felis? </p>
+    </div>
+  </article>
+  <footer class="footer">&copy; Copyright 2022</footer>
+</body>
+
+</html>
+
+CSS
+
+/*
+ CSS HEX 
+--black: #000000;
+--oxford-blue: #14213d;
+--orange-web: #fca311;
+--platinum: #e5e5e5;
+--white: #ffffff;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  background-color: #14213d;
+  color: #ffffff;
+  text-align: center;
+  height: 20%;
+  font-size: 3em;
+  line-height: 50px;
+  padding-top: 30px;
+}
+
+nav {
+  background-color: #e5e5e5;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navbar {
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  text-decoration: none;
+  padding: 12px 15px;
+  text-align: center;
+  color: #000000;
+  border: 1px solid #fca311;
+}
+
+.navbar a:hover {
+  color: #e5e5e5;
+  background-color: #14213d;
+  cursor: grab;
+}
+
+.main {
+  border: 1px solid #fca311;
+  padding: 10px;
+  border-radius: 5px;
+  min-height: 50%;
+}
+
+.main:after,
+.navbar:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col {
+  border: 1px solid #e5e5e5;
+  float: left;
+  width: 33.3%;
+  padding: 5px;
+}
+
+.footer {
+  background-color: #14213d;
+  color: #ffffff;
+  text-align: center;
+  height: 10%;
+  font-size: 1em;
+  padding-top: 20px;
+}
+
+@media (max-width:600px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .col {
+    width: 100%;
+  }
+}

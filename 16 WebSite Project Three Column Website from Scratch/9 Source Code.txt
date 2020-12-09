@@ -1,0 +1,195 @@
+Resource used to build this site
+
+Colors - https://colorhunt.co/palette/201872
+
+WireFrame - https://app.diagrams.net/
+
+Dummy Text - https://generator.lorem-ipsum.info/_latin
+
+google Font - https://fonts.google.com/specimen/Work+Sans?sidebar.open=true&selection.family=Work+Sans
+
+Menu Icon 3 bars - https://cdnjs.com/libraries/font-awesome
+
+Placeholder Images - https://dummyimage.com/
+
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=divice-width, initial-scale=1">
+  <title>My Website #1</title>
+  <link rel="stylesheet" href="style.css"> </head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<body>
+  <nav class="navbar">
+    <label for="myMenu" class="myMenu"> <i class="fa fa-bars"></i> </label>
+    <input type="checkbox" id="myMenu" role="button">
+    <ul id="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <header class="header">
+    <h2>Welcome to my Page</h2> </header>
+  <div class="main">
+    <div>
+      <p>Lorem ipsum dolor sit amet, per harum choro cu. Pri possim aliquip comprehensam ea, ex pro verear oblique, ad vis cetero voluptaria. In vero assum mel. Quando noluisse expetendis sed id, hinc ferri suavitate ne eum.</p>
+    </div>
+    <div>
+      <h1>Column 2</h1>
+      <div>
+        <p><img src="https://dummyimage.com/320x200/ed07ed/ffffff&text=test+1"> Lorem ipsum dolor sit amet, per harum choro cu. Pri possim aliquip comprehensam ea, ex pro verear oblique, ad vis cetero voluptaria. In vero assum mel. Quando noluisse expetendis sed id, hinc ferri suavitate ne eum.</p>
+        <p> Vix primis omnium euripidis ad, euripidis adipiscing vel ei. Quo id dolore assueverit, nemore aliquid eu sea. No albucius dignissim duo, duo id eirmod vulputate. No his laudem mollis. Utinam senserit te pri, duo ut nonumy quaerendum.</p>
+      </div>
+    </div>
+    <div>
+      <p>Lorem ipsum dolor sit amet, per harum choro cu. Pri possim aliquip comprehensam ea, ex pro verear oblique, ad vis cetero voluptaria. In vero assum mel. Quando noluisse expetendis sed id, hinc ferri suavitate ne eum.<img src="https://dummyimage.com/320x200/ed07ed/ffffff&text=test+1"> </p>
+    </div>
+  </div>
+  <footer class="footer">
+    <p>Copyright Footer (c)</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>
+
+CSS
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #557571;
+  /* Dark Color */
+  background-color: #f4f4f4;
+  /* lightest color */
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1em;
+}
+
+.navbar input[type=checkbox] {
+  display: none;
+}
+
+.navbar input[type=checkbox]:checked ~ #menu {
+  display: block;
+}
+
+.myMenu {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-align: left;
+  display: none;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.navbar li {
+  display: inline-block;
+  float: left;
+  margin-right: 1px;
+}
+
+.navbar li a {
+  display: block;
+  min-width: 150px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  background-color: #f4f4f4;
+  color: #557571;
+}
+
+.navbar li:hover a {
+  background-color: #557571;
+  color: #f4f4f4;
+}
+
+.header {
+  background-color: #d49a89;
+  /* 2nd darkest */
+  padding: 40px;
+  text-align: center;
+  font-size: 3em;
+  margin-top: 60px;
+}
+
+.main > div {
+  border: 1px solid #d49a89;
+  float: left;
+  padding: 10px;
+  min-height: 400px;
+}
+
+p img {
+  border: 10px solid white;
+  margin: 5px;
+  float: left;
+  max-width: 100%;
+}
+
+.main > div:nth-child(1),
+.main > div:nth-child(3) {
+  background-color: #f7d1ba;
+  width: 20%;
+}
+
+.main > div:nth-child(2) {
+  width: 60%;
+}
+
+.main:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footer {
+  background-color: #d49a89;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width:600px) {
+  .main > div:nth-child(1),
+  .main > div:nth-child(2),
+  .main > div:nth-child(3) {
+    width: 100%;
+    min-height: 0px;
+  }
+  .navbar ul {
+    position: static;
+    display: none;
+  }
+  .navbar ul li,
+  .navbar li a {
+    width: 100%;
+  }
+  .myMenu {
+    display: block;
+  }
+  .header {
+    margin-top: 0px;
+    overflow: hidden;
+    font-size: 1.5em;
+  }
+  img {
+    width: 100%;
+  }
+}

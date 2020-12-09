@@ -1,0 +1,17 @@
+Draw.io - https://app.diagrams.net/ = create a wireframe for your web design
+
+https://colorhunt.co/palette/201872 = select a color Palette
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=divice-width, initial-scale=1">
+<title>My Website #1</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<script src="app.js"></script>
+</body>
+</html>

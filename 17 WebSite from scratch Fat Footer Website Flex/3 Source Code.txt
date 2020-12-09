@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fat Footer Website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <h1 class="logo">Logo</h1>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</header>
+
+<div id="main">
+  <article>Main Content Area</article>
+  <aside>Ads and Info</aside>
+</div>
+
+<footer class="footer">
+  <section>
+    <div class="footer-column">
+      <h2>Quick Links</h2>
+      <ul>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h2>News and Info</h2>
+      <ul>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">News</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h2>Contact</h2>
+      <ul>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">General</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h2>Newsletter</h2>
+      <p>Subscribe Here</p>
+      <form>
+        <input type="email" placeholder="Add your email">
+        <input type="submit" value="Subscribe">
+      </form>
+    </div>
+  </section>
+  
+  <section>
+    <ul>
+      <li><a href="#"></a> Facebook</li>
+      <li><a href="#"></a> Twitter</li>
+      <li><a href="#"></a> Linkedin</li>
+      <li><a href="#"></a> YouTube</li>
+    </ul>
+  </section>
+  
+  <section>
+    <ul>
+      <li>&copy; 2020 Copyright</li>
+      <li><a href="#">Terms & Conditions</a></li>
+    </ul>
+  </section>
+</footer>
+</body>
+</html>

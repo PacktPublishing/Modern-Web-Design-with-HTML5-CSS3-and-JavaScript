@@ -1,0 +1,261 @@
+HTML
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fat Footer Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" /> </head>
+
+<body>
+  <header class="header">
+    <h1 class="logo"><a href="#">Logo</a></h1>
+    <ul class="navbar">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </header>
+  <div id="main">
+    <article>
+      <h2>Main Content Area</h2>
+      <p>Lorem ipsum dolor sit amet, at qui insolens torquatos efficiendi. An prima modus splendide eos. Cu vim alia sanctus adipiscing. Malis alterum liberavisse qui te, mel eu laudem dictas, id vel delectus tacimates. His ad erant libris, an quando quaestio efficiendi vel, nominati similique pri ex. Fugit assueverit ut cum, te case erat quo. Ei odio vivendum probatus pri, et ius nonumy principes urbanitas, id eius volumus mel.</p>
+    </article>
+    <aside>Ads and Info</aside>
+  </div>
+  <footer class="footer">
+    <section>
+      <div class="footer-column">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h2>News and Info</h2>
+        <ul>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">News</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h2>Contact</h2>
+        <ul>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">General</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h2>Newsletter</h2>
+        <p>Subscribe Here</p>
+        <form>
+          <input type="email" placeholder="Add your email">
+          <input type="submit" value="Subscribe"> </form>
+      </div>
+    </section>
+    <section class="social-section">
+      <ul>
+        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+      </ul>
+    </section>
+    <section class="bottom-info">
+      <ul>
+        <li>&copy; 2020 Copyright Lorem ipsum dolor sit amet, at qui insolens torquatos efficiendi</li>
+        <li><a href="#">Terms & Conditions</a></li>
+      </ul>
+    </section>
+  </footer>
+</body>
+
+</html>
+
+CSS
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Oswald', sans-serif;
+  color: #033F63;
+}
+
+#main {
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  min-height: calc(100vh - 40vh);
+}
+
+#main > * {
+  padding: 10px;
+}
+
+#main > article {
+  flex: 1;
+}
+
+#main > aside {
+  flex: 0 0 20vw;
+  background-color: #ddd;
+}
+
+.header {
+  border: 1px solid black;
+  color: #033F63;
+  background: #FEDC97;
+}
+
+.footer {
+  background-color: #B5B682;
+  color: #033F63;
+}
+
+.navbar {
+  background-color: #7C9885;
+}
+
+.logo a,
+.navbar a {
+  text-decoration: none;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+}
+
+.logo {
+  font-size: 3em;
+}
+
+.navbar,
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.footer > section {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-column h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.footer-column {
+  padding: 1rem;
+  border: 1px solid #FEDC97;
+  border-radius: 15px;
+  margin: 0 5px;
+  min-width: 12rem;
+  background-color: #033F63;
+  color: white;
+}
+
+.footer-column:nth-child(4) {
+  flex: 1;
+}
+
+.footer-column a {
+  color: #FEDC97;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  color: #B5B682;
+  text-decoration: underline;
+}
+
+.social-section {
+  justify-content: center;
+}
+
+.social-section ul {
+  display: flex;
+  border-top: 1px solid #033F63;
+}
+
+.social-section ul li {
+  margin: 1em;
+  font-size: 2em;
+  background-color: aliceblue;
+  padding: 5px;
+  border-radius: 5px;
+  min-width: 50px;
+  text-align: center;
+}
+
+.social-section ul li a {
+  color: #033F63;
+}
+
+.social-section ul li a:hover {
+  color: #28666E;
+}
+
+.bottom-info {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.bottom-info ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+}
+
+.bottom-info li {
+  margin: 1rem 0.5rem;
+}
+
+.bottom-info li:nth-child(1) {
+  flex: 1;
+}
+
+@media (min-width:720px) {
+  .header,
+  .navbar {
+    display: flex;
+  }
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .bottom-info ul {
+    width: 80%;
+  }
+}
+
+@media (min-width:940px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .bottom-info ul {
+    width: 60%;
+  }
+}

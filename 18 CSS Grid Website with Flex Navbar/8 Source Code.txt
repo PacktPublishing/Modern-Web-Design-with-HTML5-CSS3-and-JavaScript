@@ -1,0 +1,17 @@
+.footer {
+  grid-area: footer;
+  text-align: center;
+  background-color: #332E3C;
+  color: white;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+.header {
+  grid-area: header;
+  text-align: center;
+  background-color: #332E3C;
+  color: white;
+  line-height: 40px;
+  font-size: 2em;
+}

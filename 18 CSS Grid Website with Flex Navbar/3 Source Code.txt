@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSS Grid Website</title>
+  <link rel="stylesheet" href="style.css"> </head>
+
+<body>
+  <!-- Content for site -->
+  <div class="wrapper">
+    <header class="header">The Company</header>
+    <nav class="navbar"> <a href="#">Home</a> <a href="#">Products</a> <a href="#">Support</a> </nav>
+    <article class="main">
+      <h1>Content Area</h1>
+      <p> <img src="https://dummyimage.com/320x200/2cf23c/0011ff&text=My+Image">Firebug society quinn sinestro tumbler boomerang bruce harlequin mugsy. Harley deadshot red mugsy kane, penguin wing deathstroke. Bartok lillian kane jester nocturna quinn america azrael arrow. Red martha blue diamond nyssa fright metallo joe smoke blake a harley azrael. Shiva boomerang wing snake penguin thomas night wayne deathstroke catwoman atom. Riddler manor charlatan vale temblor czonk grey thomas cypher. Fright hammer helena lex temblor zucco. </p>
+      <p> Pennyworth aquaman deathstroke mugsy lucius caird blake firebug freeze hangman arkham gearhead sinestro. Bullock azrael tim red luthor knight shadow. Amanda clayface mister mad hatter zatanna oracle league dick pit bartok. Temblor echo cobblepot gearhead chimera joker diamond nyssa. Fairchild blink cobblepot cluemaster barbara joker swamp huntress firefly ragdoll. Joe nyssa doom charlatan blue rupert? Shiva hugo crane maxie. Two outsider catwoman vicki prey. Batcave. </p>
+    </article>
+    <aside class="sidemenu">
+      <h3>Newsletter and Blog</h3></aside>
+    <div class="ad">
+      <h3>My Ads</h3>
+      <div><img src="https://dummyimage.com/320x200/b3b3b3/0011ff&text=BUY+THIS"></div>
+    </div>
+    <footer class="footer">&copy; 2020 Copyright my Website</footer>
+  </div>
+</body>
+
+</html>

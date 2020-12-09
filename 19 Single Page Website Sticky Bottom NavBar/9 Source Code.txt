@@ -1,0 +1,292 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Single Page Site Sticky Navbar Bottom</title>
+  <link rel="stylesheet" href="style.css"> </head>
+
+<body>
+  <div id="navbar">
+    <nav> <a href="#home" class="active">Home</a> <a href="#about">About</a> <a href="#products">Products</a> <a href="#contact">Contact</a> </nav>
+  </div>
+  <div id="wrapper">
+    <header>
+      <div>
+        <h2>Welcome to my Website</h2>
+        <p>Content</p>
+      </div>
+    </header>
+    <section id="home">
+      <article>
+        <h2>Home</h2>
+        <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+      </article>
+    </section>
+    <section id="about">
+      <article>
+        <h2>About</h2>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+      </article>
+    </section>
+    <section id="products">
+      <article>
+        <h2>Products</h2>
+        <ul>
+          <li><img src="birds.png">
+            <p>My Birds</p>
+          </li>
+          <li><img src="img1.png">
+            <p>My Image 1</p>
+          </li>
+          <li><img src="img2.png">
+            <p>My Image 2</p>
+          </li>
+          <li><img src="img3.png">
+            <p>My Image 3</p>
+          </li>
+        </ul>
+      </article>
+    </section>
+    <section id="contact">
+      <article>
+        <h2>Contact</h2>
+        <form>
+          <div class="row">
+            <label for="name">Name:</label>
+            <input type="text" name="name" placeholder="Your Name"> </div>
+          <div class="row">
+            <label for="name">Email:</label>
+            <input type="email" name="email" placeholder="Your Email"> </div>
+          <div class="row">
+            <button type="submit">Send Email</button>
+          </div>
+        </form>
+      </article>
+    </section>
+  </div>
+  <footer id="footer">
+    <div>&copy; Copyright 2020 more company info.</div>
+  </footer>
+</body>
+
+</html>
+
+CSS
+
+/*
+CSS HEX 
+--onyx: #393e41;
+--timberwolf: #d3d0cb;
+--platinum: #e7e5df;
+--keppel: #44bba4;
+--maize-crayola: #e7bb41;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100vh;
+  font-family: 'Roboto Slab', serif;
+}
+
+a {
+  text-decoration: none;
+  color: #44bba4;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #393E41;
+}
+
+article h2 {
+  text-transform: uppercase;
+  font-size: 3em;
+}
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #393E41;
+  display: block;
+  width: 100%;
+  z-index: 100;
+  height: 60px;
+}
+
+#navbar nav {
+  display: flex;
+}
+
+#navbar nav a {
+  flex: 0 0 25vw;
+  text-align: center;
+  font-size: 2em;
+  background-color: #D3D0CB;
+}
+
+#navbar nav a:hover {
+  background-color: #393E41;
+  color: #E7BB41;
+}
+
+#wrapper {
+  margin-top: 60px;
+}
+
+#wrapper header {
+  min-height: 500px;
+  padding: 4px;
+  background-color: #E7BB41;
+  background: url(birds.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+#wrapper header > div {
+  border: 1px solid #393E41;
+  background-color: #E7E5DF;
+  border-radius: 15px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 25px;
+}
+
+#wrapper header > div h2 {
+  font-size: 3em;
+}
+
+#wrapper > section {
+  min-height: 100vh;
+  padding: 30px;
+  background-size: cover;
+  background-position: center center;
+}
+
+#wrapper > section article {
+  background-color: rgb(231, 229, 223);
+  background-color: rgba(231, 229, 223, 0.8);
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+  min-height: 500px;
+}
+
+#home {
+  background-image: url(img1.png);
+}
+
+#about {
+  background-image: url(img2.png);
+}
+
+#products {
+  background-image: url(img3.png);
+}
+
+#products ul {
+  margin: auto;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#products ul li {
+  margin: 10px;
+  text-align: center;
+  background-color: white;
+}
+
+#products ul li img {
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+  max-width: 35vw;
+  border: 4px solid #000;
+  margin: 10px;
+}
+
+#contact {
+  background-image: url(birds.png);
+}
+
+#contact form {
+  margin: 0 auto;
+  max-width: 50vw;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #44BBA4;
+}
+
+#contact label {
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  color: white;
+}
+
+#contact .row {
+  margin: 20px auto;
+  padding: 0 50px;
+}
+
+#contact input {
+  width: 100%;
+  font-size: 1.2em;
+  height: 55px;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+#contact button {
+  padding: 15px;
+  width: 100%;
+  font-size: 1.4em;
+  background-color: #E7BB41;
+}
+
+#footer {
+  background-color: #393E41;
+  color: #E7E5DF;
+  padding: 20px;
+  text-align: center;
+  min-height: 200px;
+}
+
+@media all and (max-width:640px) {
+  #navbar nav a {
+    flex: 0 0 25vw;
+    font-size: 1.2em;
+  }
+  #navbar {
+    height: 30px;
+  }
+  #wrapper header > div {
+    width: 100%;
+  }
+  #wrapper header {
+    min-height: 100px;
+  }
+  #products ul li img {
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    margin: 0px;
+  }
+  #contact form {
+    max-width: 100%;
+  }
+}

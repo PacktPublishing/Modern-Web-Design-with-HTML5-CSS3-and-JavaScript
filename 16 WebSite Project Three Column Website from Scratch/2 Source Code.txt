@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=divice-width, initial-scale=1">
+<title>My Website #1</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar">
+  
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+<header>
+  <h2>Welcome to my Page</h2>
+</header>
+<div class="main">
+  <div>Column 1</div>
+  <div>Column 2 - Main Content</div>
+  <div>Column 3</div>
+</div>
+<footer>
+  <p>Copyright Footer (c)</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

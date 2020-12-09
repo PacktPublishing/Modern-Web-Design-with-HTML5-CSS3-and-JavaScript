@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #557571;
+  /* Dark Color */
+  background-color: #f4f4f4;
+  /* lightest color */
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1em;
+}
+
+.navbar input[type=checkbox] {
+  display: none;
+}
+
+.navbar input[type=checkbox]:checked ~ #menu {
+  display: block;
+}
+
+.myMenu {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-align: left;
+  display: none;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.navbar li {
+  display: inline-block;
+  float: left;
+  margin-right: 1px;
+}
+
+.navbar li a {
+  display: block;
+  min-width: 150px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  background-color: #f4f4f4;
+  color: #557571;
+}
+
+.navbar li:hover a {
+  background-color: #557571;
+  color: #f4f4f4;
+}
+
+.header {
+  background-color: #d49a89;
+  /* 2nd darkest */
+  padding: 40px;
+  text-align: center;
+  font-size: 3em;
+  margin-top: 60px;
+}
+
+.main > div {
+  border: 1px solid #d49a89;
+  float: left;
+  padding: 10px;
+  min-height: 400px;
+}
+
+.main > div:nth-child(1),
+.main > div:nth-child(3) {
+  background-color: #f7d1ba;
+  width: 20%;
+}
+
+.main > div:nth-child(2) {
+  width: 60%;
+}
+
+.main:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footer {
+  background-color: #d49a89;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width:600px) {
+  .main > div:nth-child(1),
+  .main > div:nth-child(2),
+  .main > div:nth-child(3) {
+    width: 100%;
+    min-height: 0px;
+  }
+  .navbar ul {
+    position: static;
+    display: none;
+  }
+  .navbar ul li,
+  .navbar li a {
+    width: 100%;
+  }
+  .myMenu {
+    display: block;
+  }
+  .header {
+    margin-top: 0px;
+    overflow: hidden;
+    font-size: 1.5em;
+  }
+}

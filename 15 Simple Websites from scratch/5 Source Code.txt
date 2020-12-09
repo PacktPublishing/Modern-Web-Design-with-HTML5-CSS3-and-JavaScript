@@ -1,0 +1,113 @@
+/*
+ CSS HEX 
+--black: #000000;
+--oxford-blue: #14213d;
+--orange-web: #fca311;
+--platinum: #e5e5e5;
+--white: #ffffff;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  background-color: #14213d;
+  color: #ffffff;
+  text-align: center;
+  height: 20%;
+  font-size: 3em;
+  line-height: 50px;
+  padding-top: 30px;
+}
+
+nav {
+  background-color: #e5e5e5;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navbar {
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  width:100px;
+  display: block;
+  text-decoration: none;
+  padding: 12px 15px;
+  text-align: center;
+  color: #000000;
+  border: 1px solid #fca311;
+}
+
+.navbar a:hover {
+  color: #e5e5e5;
+  background-color: #14213d;
+  cursor: grab;
+}
+
+.main {
+  border: 1px solid #fca311;
+  padding: 10px;
+  border-radius: 5px;
+  min-height: 50%;
+  display: grid;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-areas: "two three one";
+}
+
+
+
+
+.col {
+  border: 1px solid red;
+  padding: 5px;
+}
+
+.col:nth-child(1){
+  background-color: blue;
+  grid-area: one;
+}
+.col:nth-child(2){
+  background-color: green;
+  grid-area: two;
+}
+.col:nth-child(3){
+  background-color: yellow;
+  grid-area: three;
+}
+
+.footer {
+  background-color: #14213d;
+  color: #ffffff;
+  text-align: center;
+  height: 10%;
+  font-size: 1em;
+  padding-top: 20px;
+}
+
+@media (max-width:600px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .main {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "one one"
+    "two three";
+  }
+  .navbar a {
+    width:100%;
+  }
+}

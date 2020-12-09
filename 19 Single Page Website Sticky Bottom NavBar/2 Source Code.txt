@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Single Page Site Sticky Navbar Bottom</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="navbar">
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#about" >About</a>
+      <a href="#products" >Products</a>
+      <a href="#contact" >Contact</a>
+    </nav>
+  </div>
+  
+  <div id="wrapper">
+    <header>
+      <div><h2>Welcome to my Website</h2><p>Content</p></div>
+    </header>
+    <section id="home">
+      <article>
+        <h2>Home</h2>
+        <p>Content</p>
+      </article>
+    </section>
+    <section id="about">
+      <article>
+        <h2>About</h2>
+        <p>Content</p>
+      </article>
+    </section>
+    <section id="products">
+      <article>
+        <h2>Products</h2>
+        <p>Content</p>
+      </article>
+    </section>
+    <section id="contact">
+      <article>
+        <h2>Contact</h2>
+        <p>Contact Form</p>
+      </article>
+    </section>
+  </div>
+  <footer>
+    <div>&copy; Copyrioght 2020 more company info.</div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,67 @@
+/*
+CSS HEX 
+--onyx: #393e41;
+--timberwolf: #d3d0cb;
+--platinum: #e7e5df;
+--keppel: #44bba4;
+--maize-crayola: #e7bb41;
+*/
+
+
+body, html{
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+  color:#44bba4;
+}
+a:hover{
+  text-decoration: none;
+  color:#393E41;
+}
+
+#wrapper header{
+  min-height: 500px;
+  padding: 4px;
+  background-color:#E7BB41; 
+  background: url(birds.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+#wrapper header > div{
+  border: 1px solid #393E41;
+  background-color: #E7E5DF;
+  border-radius: 15px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 25px;
+
+}
+#wrapper header > div h2{
+  font-size: 3em;
+ }
+ 
+ #wrapper > section {
+  min-height: 100vh;
+  padding: 20px;
+  background-size: cover;
+  background-position: center center;
+ }
+ 
+  #wrapper > section article {
+    background-color: rgb(231, 229, 223);
+    background-color: rgba(231, 229, 223 , 0.8);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+  }
+
+  #home {
+    background-image: url(img1.png);
+  }
+
+
+
+
+
