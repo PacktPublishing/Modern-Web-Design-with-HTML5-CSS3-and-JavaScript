@@ -1,0 +1,10 @@
+let cnt = 0;
+$('h1').html('Make element').click(function (e) {
+  console.log('clicked');
+  cnt++;
+  const val1 = $(`<p>New one ${cnt}</p>`).click(function (e) {
+    $(this).toggleClass('red');
+  })
+  const val2 = $(`<span>${cnt}</span>`).addClass('blue');
+  $('li').append(val1, val2, $('h2'));
+})

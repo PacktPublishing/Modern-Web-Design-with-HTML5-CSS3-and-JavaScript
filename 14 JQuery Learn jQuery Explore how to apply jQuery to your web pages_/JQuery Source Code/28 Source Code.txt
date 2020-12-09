@@ -1,0 +1,25 @@
+$('.main').click(function (e) {
+  //console.log($(this).find('li'));
+  $.each($(this).find('li'), function () {
+    console.log($(this).text());
+  })
+  $(this).find('li').first().addClass('red');
+  $(this).find('li').last().addClass('blue');
+  $(this).find('li').eq(1).css({
+    background: 'purple'
+  });
+  console.log($(this).find('li').filter('.highlight'));
+  $(this).find('li').filter('.highlight').css({
+    background: 'yellow'
+  });
+  $(this).find('li').not('.highlight').css({
+    background: 'green'
+  });
+})
+$('h2').click(function (e) {
+  console.log($(this).siblings());
+  console.log($(this).next());
+  console.log($(this).nextAll());
+  console.log($(this).prev());
+  console.log($(this).prevAll());
+})

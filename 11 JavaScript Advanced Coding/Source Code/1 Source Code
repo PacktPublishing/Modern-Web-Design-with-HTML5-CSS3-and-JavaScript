@@ -1,0 +1,26 @@
+HTML
+<!doctype html>
+<html>
+<head>
+  <title>JavaScript</title>
+</head>
+<body>
+  <h1 id="message">Welcome to JavaScript</h1>
+  <div class="output"></div>
+  <textarea class="feedback"></textarea>
+  <button>Click Me</button>
+  <script src="script.js"></script>
+</body>
+</html>
+
+JS
+let val1 = 100.542112;
+let val2 = "100";
+if(Number("100") === 100){ console.log(true)}
+console.log(parseInt("100D1000") === 100);
+console.log(val1.toFixed(4));
+console.log(Number("100D"));
+console.log(Number("100"));
+let d = new Date();
+console.log(d);
+console.log(Number(d));

@@ -1,0 +1,18 @@
+$('.main li')[0].style.color = 'green';
+$('.main li').eq(0).css('color', 'red');
+$('h2').click(() => {
+  $('h1').toggle()
+});
+const vals = document.querySelectorAll('li');
+const h1 = document.querySelector('h1');
+vals.forEach((el) => {
+  el.addEventListener('click', () => {
+    console.log('click');
+    if (h1.style.display === "none") {
+      h1.style.display = "block";
+    }
+    else {
+      h1.style.display = "none";
+    }
+  })
+})

@@ -1,0 +1,81 @@
+  <main class="container">
+    <div class="card w-50 border-success bg-dark text-white"> <img src="https://via.placeholder.com/500x500?text=Some Image" class="card-img-top">
+      <div class="card-img-overlay text-white"> Text on top </div>
+      <div class="card-header h2">Hello World</div>
+      <div class="card-body">
+        <h3 class="card-title h3">Title</h3>
+        <p class="card-text">Hello World</p> <a href="#" class="card-link">Click Me</a> </div>
+      <div class="card-footer"> Footer </div>
+    </div>
+    <div class="card-columns">
+      <div class="card  border-success bg-dark text-white">
+        <div class="card-header h2">Hello World</div>
+        <div class="card-body">
+          <h3 class="card-title h3">Title</h3>
+          <p class="card-text">Hello World</p> <a href="#" class="card-link">Click Me</a> </div>
+      </div>
+      <div class="card  border-success bg-dark text-white">
+        <div class="card-header h2">Hello World</div>
+        <div class="card-body">
+          <h3 class="card-title h3">Title</h3>
+          <p class="card-text">Hello World</p> <a href="#" class="card-link">Click Me</a> </div>
+      </div>
+      <div class="card  border-success bg-dark text-white">
+        <div class="card-header h2">Hello World</div>
+        <div class="card-body">
+          <h3 class="card-title h3">Title</h3>
+          <p class="card-text">Hello World</p> <a href="#" class="card-link">Click Me</a> </div>
+      </div>
+      <div class="card  border-success bg-dark text-white">
+        <div class="card-header h2">Hello World</div>
+        <div class="card-body">
+          <h3 class="card-title h3">Title</h3>
+          <p class="card-text">Hello World</p> <a href="#" class="card-link">Click Me</a> </div>
+      </div>
+      <div class="card border-success bg-dark text-white"> <img src="https://via.placeholder.com/500x500?text=Some Image" class="card-img-top">
+        <div class="card-img-overlay text-white"> Text on top </div>
+        <div class="card-header h2">Hello World</div>
+        <div class="card-body">
+          <h3 class="card-title h3">Title</h3>
+          <p class="card-text">Hello World</p> <a href="#" class="card-link">Click Me</a> </div>
+        <div class="card-footer"> Footer </div>
+      </div>
+      <div class="card  border-success bg-dark text-white"> <img src="https://via.placeholder.com/500x500?text=Some Image" class="card-img-top">
+        <div class="card-img-overlay text-white"> Text on top </div>
+        <div class="card-header h2">Hello World</div>
+        <div class="card-body">
+          <h3 class="card-title h3">Title</h3>
+          <p class="card-text">Hello World</p> <a href="#" class="card-link">Click Me</a> </div>
+        <div class="card-footer"> Footer </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <div class="card-header h2">Hello World</div> <img src="https://via.placeholder.com/500x500?text=Some Image" class="card-img-top">
+          <div class="card-body">
+            <h3 class="card-title h3">Title</h3>
+            <p class="card-text">Hello World</p> <a href="#" class="card-link">Click Me</a> </div>
+          <div class="card-footer"> Footer </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-header h2">Hello World</div> <img src="https://via.placeholder.com/500x500?text=Some Image" class="card-img-top">
+          <div class="card-body">
+            <h3 class="card-title h3">Title</h3>
+            <p class="card-text">Hello World</p> <a href="#" class="card-link">Click Me</a> </div>
+          <div class="card-footer"> Footer </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-header h2">Hello World</div> <img src="https://via.placeholder.com/500x500?text=Some Image" class="card-img-top">
+          <div class="card-body">
+            <h3 class="card-title h3">Title</h3>
+            <p class="card-text">Hello World</p> <a href="#" class="card-link">Click Me</a> </div>
+          <div class="card-footer"> Footer </div>
+        </div>
+      </div>
+    </div>
+  </main>

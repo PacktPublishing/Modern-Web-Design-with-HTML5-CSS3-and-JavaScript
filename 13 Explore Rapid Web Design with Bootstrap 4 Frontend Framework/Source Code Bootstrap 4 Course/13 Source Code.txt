@@ -1,0 +1,36 @@
+  <main class="container">
+    <div> <a href="#acc1" class="btn btn-primary" data-toggle="collapse" data-target="#acc1">Toggle Content</a> <a href="#acc1" class="btn btn-success" data-toggle="collapse" data-target="#acc1">Toggle Content</a> <a href=".multi-collapse" class="btn btn-danger" data-toggle="collapse" data-target=".multi-collapse">Toggle Content</a>
+      <div class="collapse multi-collapse" id="acc1">
+        <p>This is some random content. Whatever blah blah blah......</p>
+        <p>This is some random content. Whatever blah blah blah......</p>
+      </div>
+      <div class="collapse multi-collapse" id="acc2">
+        <p>This is some random content. Whatever blah blah blah......</p>
+        <p>This is some random content. Whatever blah blah blah......</p>
+      </div>
+      <div class="collapse multi-collapse" id="acc3">
+        <p>This is some random content. Whatever blah blah blah......</p>
+        <p>This is some random content. Whatever blah blah blah......</p>
+      </div>
+    </div>
+    <div id="accMain" class="mt-5">
+      <div class="card">
+        <div class="card-header" data-toggle="collapse" data-target="#col1">One</div>
+        <div class="collapse show" id="col1" data-parent="#accMain">
+          <div class="card-body">This is some content hidden</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" data-toggle="collapse" data-target="#col2">Two</div>
+        <div class="collapse" id="col2" data-parent="#accMain">
+          <div class="card-body">This is some content hidden</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" data-toggle="collapse" data-target="#col3">Three</div>
+        <div class="collapse" id="col3" data-parent="#accMain">
+          <div class="card-body">This is some content hidden</div>
+        </div>
+      </div>
+    </div>
+  </main>

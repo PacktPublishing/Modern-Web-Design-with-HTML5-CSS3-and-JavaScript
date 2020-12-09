@@ -1,0 +1,21 @@
+let cnt = 0;
+$('input[name="first"]').keydown(function (e) {
+  cnt++;
+  console.log('down ' + cnt);
+  if (e.keyCode === 13) {
+    console.log('pressed enter');
+    $('h1').text($(this).val());
+  }
+})
+$('input[name="first"]').keypress(function (e) {
+  cnt++;
+  console.log('press ' + cnt);
+})
+$('input[name="first"]').keyup(function (e) {
+  if ($(this).val().length >= 4) {
+    $(this).addClass('red');
+  }
+  else {
+    $(this).removeClass('red');
+  }
+})

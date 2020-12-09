@@ -1,0 +1,12 @@
+  <main class="container"> <a href="#" class="btn btn-primary">Press Button</a> <a href="#" class="btn btn-danger">Press Button</a> <a href="#" class="btn btn-light">Press Button</a> <a href="#" class="btn btn-outline-primary">Press Button</a> <a href="#" class="btn btn-outline-danger btn-lg">Press Button</a> <a href="#" class="btn btn-outline-danger btn-sm">Press Button</a> <a href="#" class="btn btn-danger btn-block btn-lg">Press Button</a> <a href="#" class="btn btn-danger btn-block btn-lg active">Press Button</a> <a href="#" class="btn btn-danger btn-block btn-lg disabled">Press Button</a>
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+      <label class="btn btn-primary active">
+        <input type="radio" name="opt" checked>1 </label>
+      <label class="btn btn-success">
+        <input type="radio" name="opt">2 </label>
+      <label class="btn btn-primary">
+        <input type="radio" name="opt">3 </label>
+      <label class="btn btn-primary">
+        <input type="radio" name="opt">4 </label>
+    </div>
+  </main>

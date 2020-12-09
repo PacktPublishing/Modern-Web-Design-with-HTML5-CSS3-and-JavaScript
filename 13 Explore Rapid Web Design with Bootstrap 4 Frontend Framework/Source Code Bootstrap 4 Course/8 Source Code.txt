@@ -1,0 +1,5 @@
+<main class="container">
+<div class="h4">Some Content 
+<span class="badge badge-pill badge-dark">1000000</span></div>
+<div class="h4">Some Content 
+<span class="badge badge-success">20000</span></div>

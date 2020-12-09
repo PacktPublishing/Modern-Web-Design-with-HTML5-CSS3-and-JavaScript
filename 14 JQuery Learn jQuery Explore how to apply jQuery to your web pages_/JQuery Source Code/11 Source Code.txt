@@ -1,0 +1,9 @@
+$('li').click(function(e){
+  console.log($(this).html());
+  console.log($(this).text());
+})
+
+$('h1').text('Get input').click(function(e){
+  console.log($('input[name="first"]').val());
+  $('input[name="first"]').val('Laurence');
+})

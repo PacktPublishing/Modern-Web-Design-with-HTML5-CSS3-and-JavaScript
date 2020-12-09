@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Learn jQuery</title>
+  <link rel="stylesheet" href="style.css"> </head>
+
+<body>
+  <h1 id="first">jQuery</h1>
+  <h2>Explore how to write jQuery Code</h2>
+  <div class="main">
+    <ul>
+      <li>Click me 1</li>
+      <li>Click me 2</li>
+      <li>Click me 3</li>
+      <li>Click me 4</li>
+      <li>Click me 5</li>
+      <li>Click me 6</li>
+    </ul>
+  </div>
+  <ul>
+    <li>Click me 1</li>
+    <li>Click me 2</li>
+    <li>Click me 3</li>
+    <li>Click me 4</li>
+    <li>Click me 5</li>
+    <li>Click me 6</li>
+  </ul>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
+
+
+STYLE
+
+.main li{
+  color:red;
+}
+
+
+
+JAVASCRIPT
+
+//$('.main li').css('color','green');
+const val = document.querySelector('.main li');
+val.style.color = 'purple';
+$('#first').html('WORKS jQuery');
+document.querySelector('#first').innerHTML = 'Works JavaScript';
+/*const vals = document.querySelectorAll('.main li');
+vals.forEach((ele)=>{
+  ele.style.color = 'green';
+})*/

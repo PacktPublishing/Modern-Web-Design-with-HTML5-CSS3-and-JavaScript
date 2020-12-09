@@ -1,0 +1,19 @@
+const url = 'https://randomuser.me/api?results=100';
+$('h1').text('Click Me').click(function (e) {
+  $.get(url, function (data) {
+    console.log(data.results);
+    let html = '';
+    $.each(data.results, function (key, val) {
+      console.log(val.name);
+      html += `${val.name.title} ${val.name.first} ${val.name.last}<br>`;
+    })
+    $('.output').html(html);
+  })
+});
+$('h2').text('Click Me!!!').click(function (e) {
+  let html = '';
+  $('li').each(function () {
+    html += `${$(this).text()} <br>`;
+  })
+  $('.output').html(html);
+})

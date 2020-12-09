@@ -1,0 +1,6 @@
+$('li').click(function(e){
+  console.log(e.target);
+  console.log(this);
+  console.log($(this));
+  $(this).css('color','red');
+})

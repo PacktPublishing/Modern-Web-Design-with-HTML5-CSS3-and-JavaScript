@@ -1,0 +1,12 @@
+<main class="container mt-5">
+  <button type="button" class="btn btn-primary" data-container="body" data-toggle="popover" data-content="Hello World" data-placement="bottom">Click Me</button>
+  <button type="button" class="btn btn-primary" data-container="body" data-toggle="popover" data-content="Hello World" data-placement="top">Click Me</button>
+  <button type="button" class="btn btn-primary" data-toggle="tooltip" title="Hello World" data-placement="top">Click Me</button>
+</main>
+
+<script>
+$(function () {
+  $('[data-toggle="popover"]').popover();
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>

@@ -1,0 +1,16 @@
+const myArr = ["Welcome", "JavaScript", "Laurence Svekis", "Hello World"];
+const message = document.querySelector('#message');
+for (let x = 0; x < 100; x++) {
+  let temp = ranArr(myArr);
+  console.log(temp);
+  console.log(temp.index, temp.item);
+  message.innerHTML += `${temp.item}<br> `
+}
+
+function ranArr(arr) {
+  let ind = Math.floor(Math.random() * arr.length);
+  return {
+    item: arr[ind]
+    , index: ind
+  }
+}

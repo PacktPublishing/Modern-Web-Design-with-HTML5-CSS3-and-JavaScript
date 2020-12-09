@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> </head>
+
+<body>
+  <header></header>
+  <nav></nav>
+  <main class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h1>Website Name</h1></div>
+      <div class="col-md-3">
+        <div class="h4">Section 1</div>
+        <p>Some default text to fill some space, and something more so there is more text</p>
+        <div class="h4">Section 2</div>
+        <p>Some default text to fill some space, and something more so there is more text</p>
+      </div>
+      <div class="col-md-3">
+        <div class="h4">Section 1</div>
+        <p>Some default text to fill some space, and something more so there is more text</p>
+        <div class="h4">Search</div>
+        <div class="form-group">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Search"> </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-9">
+          <div class="h4 mb-4">Title 1</div>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+        </div>
+        <div class="col-md-3">
+          <ul class="list-group text-center">
+            <li class="list-group-item">
+              <button class="btn btn-secondary">Button 1</button>
+            </li>
+            <li class="list-group-item">
+              <button class="btn btn-secondary">Button 2</button>
+            </li>
+            <li class="list-group-item">Some default text to fill some space, and something more so there is more text</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-3"><img src="https://via.placeholder.com/500x500?text=Some Image" class="img-fluid"></div>
+        <div class="col-6">
+          <div class="h4 mb-5">Title 2</div>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+        </div>
+        <div class="col-3">
+          <div class="h4 mb-2">Title 3</div>
+          <ul class="list-group">
+            <li class="list-group-item"> Some default text to fill some space, and something more so there is more text </li>
+            <li class="list-group-item"> Some default text to fill some space, and something more so there is more text </li>
+            <li class="list-group-item"> Some default text to fill some space, and something more so there is more text </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer></footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>

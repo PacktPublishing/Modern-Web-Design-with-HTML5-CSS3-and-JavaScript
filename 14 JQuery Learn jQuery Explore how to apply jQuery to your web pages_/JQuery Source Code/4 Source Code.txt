@@ -1,0 +1,13 @@
+console.log($('h1'));
+$(document).ready(() => {
+  console.log('ready');
+  $('h1').html('HELLO');
+  console.log($('h1'));
+})
+$(function () {
+  console.log('ready');
+  console.log($('h1'));
+})
+document.addEventListener('DOMContentLoaded', (e) => {
+  console.log('DOMContentLoaded');
+})

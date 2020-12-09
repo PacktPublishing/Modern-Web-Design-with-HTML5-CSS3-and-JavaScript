@@ -1,0 +1,10 @@
+const message = document.querySelector('#message');
+const txtArea = document.querySelector('textarea');
+const btn = document.querySelector('button');
+btn.addEventListener('click', (e) => {
+  console.log(txtArea.value);
+  localStorage.setItem('myKey', txtArea.value);
+})
+if (localStorage.getItem('myKey')) {
+  message.textContent = localStorage.getItem('myKey');
+}

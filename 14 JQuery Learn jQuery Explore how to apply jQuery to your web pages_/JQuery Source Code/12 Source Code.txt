@@ -1,0 +1,4 @@
+$('li').click(function(e){
+  //$(this).remove();
+  $('.main ul').empty();
+})

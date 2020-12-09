@@ -1,0 +1,10 @@
+<div class="jumbotron text-center">
+  <div class="display-3 ">Welcome</div>
+  <p class="text-muted">Subtitle more info whatever</p>
+  <button class="btn btn-primary">More Info</button>
+</div>
+<div class="jumbotron jumbotron-fluid text-center">
+  <div class="display-3 ">Welcome</div>
+  <p class="text-muted">Subtitle more info whatever</p>
+  <button class="btn btn-primary">More Info</button>
+</div>

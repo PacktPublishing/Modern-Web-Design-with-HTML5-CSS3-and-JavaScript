@@ -1,0 +1,39 @@
+<html>
+ 
+<head>
+  <title>Questions and Answers JavaScript</title>
+</head>
+ 
+<body>
+  <div class="top">
+    <div class="nested1">Nested 1</div>
+    <div class="nested2">Nested 2</div>
+    <div class="nested3">Nested 3</div>
+  </div>
+  <div class="message">What time is it</div>
+  <input type="text">
+  <button>Click</button>
+  <script>
+    for (let i = 0; i < 10; i++) {
+      if (i === 3) {
+        continue;
+      }
+      if (i === 8) {
+        break;
+      }
+      console.log(i);
+    }
+    let x = 0;
+    while (x < 10) {
+      //if(x===3){continue;}
+      if (x === 8) {
+        break;
+      }
+      //console.log(x); 
+      x++;
+    }
+    //console.log(x);
+  </script>
+</body>
+ 
+</html>

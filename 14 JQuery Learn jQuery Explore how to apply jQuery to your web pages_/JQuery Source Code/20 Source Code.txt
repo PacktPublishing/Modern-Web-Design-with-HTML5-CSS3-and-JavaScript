@@ -1,0 +1,16 @@
+$('.main li').click(function () {
+  //$(this).hide('slow',success($(this).text()));
+  $(this).fadeOut('slow', success($(this).text()));
+})
+$('h1').click(function () {
+  //$('.main li').show(1000,success('show'));
+  $('.main li').fadeIn(1000);
+})
+$('h2').click(function () {
+  //$('.main li').toggle(1000);
+  $('.main li').fadeToggle(1000);
+})
+
+function success(output) {
+  $('h1').text(output);
+}

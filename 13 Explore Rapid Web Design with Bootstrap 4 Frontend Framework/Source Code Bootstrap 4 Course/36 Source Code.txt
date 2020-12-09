@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <style>
+    html,
+    body,
+    header,
+    #splash {
+      height: 100%;
+    }
+    
+    body {
+      position: relative;
+    }
+    
+    .spacer {
+      height: 10px;
+      width: 100%;
+      background-color: black;
+      margin: 40px 0;
+      display: block;
+    }
+    
+    .spacer2 {
+      height: 60px;
+      display: block;
+    }
+    
+    #splash {
+      background: url("https://via.placeholder.com/500x500/ccdddd/eeddee?text=image")no-repeat center center fixed;
+      background-size: cover;
+    }
+  </style>
+</head>
+
+<body data-spy="scroll" data-target="#navy">
+  <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-primary" id="navy">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav1"><span class="navbar-toggler-icon"></span></button>
+    <div class="navbar-collapse collapse" id="nav1">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a href="#splash" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a href="#story" class="nav-link">Story</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-twitter-square"></i></a></li>
+        <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-facebook-square"></i></a></li>
+      </ul>
+    </div>
+  </nav>
+  <header>
+    <div id="splash">
+      <div class="container-fluid">
+        <div class="row h-100 justify-content-center">
+          <div class="col-md-8 text-center">
+            <div class="spacer2"></div>
+            <h1 class="display-1">Welcome Content</h1>
+            <div class="spacer2"></div>
+            <h2 class="pt-5">This is my website</h2> </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <section id="about" class="text-center">
+      <div class="spacer"></div>
+      <h2 class="display-3 mb-4">About Us</h2>
+      <div class="row ">
+        <div class="col-md-8">
+          <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="col-md-4"> <img src="https://via.placeholder.com/500x500/ccdddd/eeddee?text=image" class="img-fluid"> </div>
+      </div>
+      <div class="mt-5">
+        <div class="card-deck">
+          <div class="card"> <img src="https://via.placeholder.com/500x500/333ddd/eeddee?text=image" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Silver <i class="fa fa-desktop" aria-hidden="true"></i></h3>
+              <p class="card-text">Product Info</p>
+              <div type="button" class="btn btn-outline-success">Buy Now</div>
+            </div>
+          </div>
+          <div class="card"> <img src="https://via.placeholder.com/500x500/c444dd/eeddee?text=image" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Gold <i class="fa fa-desktop" aria-hidden="true"></i></h3>
+              <p class="card-text">Product Info</p>
+              <div type="button" class="btn btn-outline-success">Buy Now</div>
+            </div>
+          </div>
+          <div class="card"> <img src="https://via.placeholder.com/500x500/ffd44d/eeddee?text=image" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Platinum <i class="fa fa-desktop" aria-hidden="true"></i></h3>
+              <p class="card-text">Product Info</p>
+              <div type="button" class="btn btn-outline-success">Buy Now</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="text-center">
+      <div class="spacer"></div>
+      <h2 class="display-3 mb-4">Projects</h2>
+      <div class="row">
+        <div class="col">
+          <div><img src="https://via.placeholder.com/500x500/44444d/eeddee?text=prodcut 1" class="img-fluid" alt=""></div>
+          <h3 class="h3">Product #1</h3>
+          <p>Some info about the product</p>
+        </div>
+        <div class="col">
+          <div><img src="https://via.placeholder.com/500x500/4dd44d/eeddee?text=product 2" class="img-fluid" alt=""></div>
+          <h3 class="h3">Product #2</h3>
+          <p>Some info about the product</p>
+        </div>
+        <div class="col">
+          <div><img src="https://via.placeholder.com/500x500/ed544d/eeddee?text=Product 3" class="img-fluid" alt=""></div>
+          <h3 class="h3">Product #3</h3>
+          <p>Some info about the product</p>
+        </div>
+        <div class="col">
+          <div><img src="https://via.placeholder.com/500x500/1eeeed/eeddee?text=Product 4" class="img-fluid" alt=""></div>
+          <h3 class="h3">Product #4</h3>
+          <p>Some info about the product</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div><img src="https://via.placeholder.com/500x500/11444d/eeddee?text=prodcut 5" class="img-fluid" alt=""></div>
+          <h3 class="h3">Product #5</h3>
+          <p>Some info about the product</p>
+        </div>
+        <div class="col">
+          <div><img src="https://via.placeholder.com/500x500/ddd44d/eeddee?text=product 6" class="img-fluid" alt=""></div>
+          <h3 class="h3">Product #6</h3>
+          <p>Some info about the product</p>
+        </div>
+        <div class="col">
+          <div><img src="https://via.placeholder.com/500x500/edee4d/eeddee?text=Product 7" class="img-fluid" alt=""></div>
+          <h3 class="h3">Product #7</h3>
+          <p>Some info about the product</p>
+        </div>
+        <div class="col">
+          <div><img src="https://via.placeholder.com/500x500/122eed/eeddee?text=Product 8" class="img-fluid" alt=""></div>
+          <h3 class="h3">Product #8</h3>
+          <p>Some info about the product</p>
+        </div>
+      </div>
+    </section>
+    <section id="story" class="text-center">
+      <div class="spacer"></div>
+      <h2 class="display-3 mb-4">Our Story</h2>
+      <div class="row">
+        <div class="col-md-8">
+          <div id="carousel1" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active"> <img src="https://via.placeholder.com/500x300/edee4d/eeddee?text=Hello" class="d-block w-100 "> </div>
+              <div class="carousel-item "> <img src="https://via.placeholder.com/500x300/11ee4d/eeddee?text=New One" class="d-block w-100 "> </div>
+              <div class="carousel-item "> <img src="https://via.placeholder.com/500x300/11114d/eeddee?text=Last One" class="d-block w-100 "> </div>
+              <ol class="carousel-indicators">
+                <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel1" data-slide-to="1"></li>
+                <li data-target="#carousel1" data-slide-to="2"></li>
+              </ol>
+              <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
+              <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="text-center">
+      <div class="spacer"></div>
+      <h2 class="display-3 mb-4">Contact Us</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8  ">
+          <h4 class="text-success text-center"></h4>
+          <form>
+            <div class="form-group input-group">
+              <div class="input-group-prepend"> <span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span> </div>
+              <input type="text" name="name" class="form-control" placeholder="Your Name"> </div>
+            <div class="form-group input-group">
+              <div class="input-group-prepend"> <span class="input-group-text"><i class="fa fa-envelope-open" aria-hidden="true"></i></span> </div>
+              <input type="text" name="email" class="form-control" placeholder="Your Email"> </div>
+            <div class="form-group input-group">
+              <div class="input-group-prepend"> <span class="input-group-text"><i class="fa fa-at" aria-hidden="true"></i></span> </div>
+              <input type="text" name="subject" class="form-control" placeholder="Subject"> </div>
+            <div class="form-group input-group">
+              <div class="input-group-prepend"> <span class="input-group-text"><i class="fa fa-comment" aria-hidden="true"></i></span> </div>
+              <textarea name="msg" class="form-control" placeholder="your Message" cols="30" rows="5"></textarea>
+            </div>
+            <div class="form-group">
+              <input type="submit" name="submit" class="btn btn-primary btn-block" value="send"> </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="text-center container-fluid bg-primary text-white">
+    <div class="row p-4">
+      <div class="col-6">© 2021 Copyright:</div>
+      <div class="col-3">
+        <div class="text-uppercase">My Links</div>
+        <ul class="list-group text-dark">
+          <li class="list-group-item">Website 1</li>
+          <li class="list-group-item">Website 2</li>
+          <li class="list-group-item">Website 3</li>
+          <li class="list-group-item">Website 4</li>
+        </ul>
+      </div>
+      <div class="col-3">
+        <div class="text-uppercase">My Links</div>
+        <div class="list-group"> <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a> <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a> <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a> <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Vestibulum at eros</a> </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script>
+    $('body').scrollspy({
+      target: '#navy'
+    })
+    $("#navy ul li a[href^='#']").on('click', function (e) {
+      console.log(e);
+      e.preventDefault();
+      let hash = this.hash;
+      console.log($(hash).offset().top);
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1000, function () {
+        window.location.hash = hash;
+      })
+    })
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<html>
+ 
+<head>
+  <title>Questions and Answers JavaScript</title>
+</head>
+ 
+<body>
+  <div class="top">
+    <div class="nested1">Nested 1</div>
+    <div class="nested2">Nested 2</div>
+    <div class="nested3">Nested 3</div>
+  </div>
+  <div class="message">What time is it</div>
+  <input type="text">
+  <button>Click</button>
+  <script>
+    const btn = document.querySelector('button');
+    const answer = document.querySelector('input');
+    const message = document.querySelector('.message');
+    btn.addEventListener('click', function () {
+      console.log(answer.value);
+      //let ans = Number(answer.value);
+      let ans = parseInt(answer.value);
+      //console.log(typeof(answer.value));
+      console.log(typeof (ans));
+      console.log(ans);
+      if (!Number(ans)) {
+        console.log('not a number');
+      }
+      else {
+        console.log('Okay');
+        message.textContent = checkTimeofDay(ans);
+      }
+    })
+    outputToday();
+ 
+    function outputToday() {
+      const today = new Date().getDay();
+      let dayName = 'Unknown';
+      let weekStatus = 'Unknown';
+      switch (today) {
+      case 0:
+        dayName = "Sunday";
+        break;
+      case 1:
+        dayName = "Monday";
+        break;
+      case 2:
+        dayName = "Tuesday";
+        break;
+      case 3:
+        dayName = "Wednesday";
+        break;
+      case 4:
+        dayName = "Thursday";
+        break;
+      case 5:
+        dayName = "Friday";
+        break;
+      case 6:
+        dayName = "Saturday";
+        break;
+      }
+      switch (dayName) {
+      case "Thursday":
+      case "Friday":
+      case "Saturday":
+        weekStatus = "end of Week";
+        break;
+      default:
+        weekStatus = "Start of Week";
+      }
+      console.log(today);
+      message.textContent = `Today is a ${dayName} its the ${weekStatus}`;
+    }
+ 
+    function checkTimeofDay(num) {
+      switch (num < 12) {
+      case true:
+        return 'Good Morning';
+        break;
+      case false:
+        return 'Good Afternoon';
+        break;
+      default:
+        return 'something went wrong'
+      }
+    }
+  </script>
+</body>
+ 
+</html>

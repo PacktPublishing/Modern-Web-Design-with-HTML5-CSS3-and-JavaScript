@@ -1,0 +1,19 @@
+<main class="container mt-5">
+  <div class="spinner-border text-danger" style="width:5rem; height:5rem;"></div>
+  <div class="text-center">
+    <div class="spinner-grow text-danger"></div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar bg-primary" style="width:25%">25%</div>
+    <div class="progress-bar bg-success" style="width:45%">45%</div>
+  </div>
+  <div class="progress mt-5" style="height:50px">
+    <div class="progress-bar bg-success" style="width:50%">50%</div>
+  </div>
+  <div class="progress mt-5" style="height:50px">
+    <div class="progress-bar bg-success progress-bar-striped" style="width:50%">50%</div>
+  </div>
+  <div class="progress mt-5" style="height:50px">
+    <div class="progress-bar bg-danger progress-bar-animated progress-bar-striped" style="width:50%">50%</div>
+  </div>
+</main>

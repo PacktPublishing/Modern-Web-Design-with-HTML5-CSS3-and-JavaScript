@@ -1,0 +1,48 @@
+$('h1').css({
+  position: 'absolute'
+  , background: 'red'
+  , width: '150px'
+  , height: '150px'
+  , padding: '20px'
+}).text('MOVER');
+$('h1').on({
+  mouseenter: function (e) {
+    $(this).css({
+      background: 'blue'
+    })
+  }
+  , mouseleave: function (e) {
+    $(this).css({
+      background: 'red'
+    })
+  }
+  , click: function (e) {
+    $(this).css({
+      left: '0px'
+      , top: '0px'
+    })
+  }
+, });
+$('body').keypress(function (e) {
+  console.log(e.key);
+  if (e.key === 'a') {
+    $('h1').animate({
+      'left': '-=50px'
+    }, 500)
+  }
+  if (e.key === 's') {
+    $('h1').animate({
+      'top': '-=50px'
+    }, 500)
+  }
+  if (e.key === 'd') {
+    $('h1').animate({
+      'left': '+=50px'
+    }, 500)
+  }
+  if (e.key === 'f') {
+    $('h1').animate({
+      'top': '+=50px'
+    }, 500)
+  }
+})

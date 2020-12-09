@@ -1,0 +1,32 @@
+$('h1').css({
+  position: 'relative'
+  , border: '1px solid red'
+  , display: 'inline-block'
+});
+$('h2').text('CLICK to RESET').click(function (e) {
+  $('li').animate({
+    left: '0px'
+    , opacity: '1'
+    , fontSize: '1em'
+  }, 1000);
+})
+$('li').css({
+  position: 'relative'
+}).text('0');
+$('h1').animate({
+  left: '300px'
+  , height: '100px'
+  , width: '100px'
+});
+$('li').click(function (e) {
+  $(this).animate({
+    left: '+=100px'
+    , opacity: '0.5'
+    , fontSize: '2em'
+  }, 100, function (e) {
+    let val = $(this).text();
+    val++;
+    console.log(val);
+    $(this).text(val);
+  });
+})

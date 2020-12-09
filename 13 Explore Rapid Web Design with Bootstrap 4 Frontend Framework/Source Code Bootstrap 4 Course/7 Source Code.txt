@@ -1,0 +1,8 @@
+  <main class="container">
+    <div class="alert alert-danger alert-dismissible fade show">
+      <h3 class="alert-heading">Alert</h3> Message to the User. <a href="#" class="alert-link">Hello World</a>
+      <hr> More content blah blah blah
+      <button class="close" data-dismiss="alert"><span>&times;</span></button>
+
+    </div>
+  </main>

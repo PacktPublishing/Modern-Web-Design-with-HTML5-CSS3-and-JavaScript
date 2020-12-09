@@ -1,0 +1,14 @@
+let today = Date.now();
+let day = 24 * 60 * 60 * 1000;
+let days = 31;
+let d = new Date(today + (days * day));
+console.log(d);
+d = new Date(2050, 5, 15, 12, 30, 0);
+console.log(d);
+console.log(d.getDate());
+console.log(d.getDay());
+console.log(d.getYear());
+console.log(d.getFullYear());
+console.log(d.getTime());
+console.log(d.getUTCDate());
+console.log(d.getMilliseconds());

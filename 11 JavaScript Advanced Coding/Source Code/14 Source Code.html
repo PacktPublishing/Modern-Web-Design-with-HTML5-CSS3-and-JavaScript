@@ -1,0 +1,14 @@
+function Person(first, last) {
+  this.firstName = first;
+  this.lastName = last;
+}
+Person.prototype.fullName = function () {
+  return this.firstName + " " + this.lastName;
+}
+const val = new Person("Laurence", "Svekis");
+console.log(val);
+console.log(val.fullName());
+Date.prototype.addDays = function (days) {
+  return new Date(this.valueOf() + (days * 24 * 60 * 60 * 1000));
+}
+console.log(new Date().addDays(7));

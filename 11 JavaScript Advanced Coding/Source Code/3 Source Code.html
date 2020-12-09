@@ -1,0 +1,44 @@
+https://regexr.com/ - create regex
+
+let val1 = " JavaScript is Great JavaScript Rules";
+let val2 = " Hello World ";
+const output = document.querySelector('.output');
+output.innerHTML = val1.big();
+output.innerHTML += val1.small();
+output.innerHTML += val1.fontsize(9);
+output.innerHTML += val1.bold();
+output.innerHTML += val1.fontcolor('red');
+output.innerHTML += val1.strike();
+output.innerHTML += val1.italics();
+output.innerHTML += `<br> ${val1.toUpperCase()}`;
+output.innerHTML += `<br> ${val1.toLowerCase()}`;
+let index = 5;
+console.log(val1.charAt(index));
+console.log(val1.concat(' - ', val1, val1, val2));
+console.log(val1.length);
+let val3 = val1.trim();
+console.log(val3);
+console.log(val1);
+let val4 = val1.split(' ');
+console.log(val4);
+console.log(val1[index]);
+console.log(val1.slice(5, 9)); //start pos , end pos
+console.log(val1.substring(5)); //start pos , end pos
+console.log(val1.substr(5, 5)); // start pos , length
+console.log(val1.replace(/JavaScript/g, 'HTML'));
+let val5 = val1.match(/JavaScript/g);
+console.log(val5);
+let val6 = val1.search(/JavaScript/g);
+console.log(val6);
+console.log(val1.includes('JavaScript')); //boolean// case sensitive
+console.log(val1.indexOf('JavaScript')); // found index value = otherwise -1
+console.log(val1.lastIndexOf('JavaScript'));
+let val7 = 1000;
+let val8 = val7.toString();
+let d = new Date();
+let val9 = d.toUTCString();
+let val10 = d.toString();
+console.log(val8);
+console.log(val9);
+console.log(val10);
+console.log(d);

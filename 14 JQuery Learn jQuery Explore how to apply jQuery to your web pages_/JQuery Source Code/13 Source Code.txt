@@ -1,0 +1,21 @@
+$('ul').eq(1).remove();
+$('input').eq(1).remove();
+$('h2').remove();
+const btn = $('<button>Add</button>').click(addNew);
+$('input[name="first"]').val('Laurence').after(btn);
+btn.addClass('red');
+console.log(btn);
+const span = $('<span> X </span>').addClass('red').click(rem);
+$('li').append(span);
+
+function rem() {
+  console.log($(this).parent());
+  $(this).parent().remove();
+}
+
+function addNew() {
+  let span = $('<span> X </span>').addClass('red').click(rem);
+  let str = $('input[name="first"]').val();
+  let li = $(`<li>${str}</li>`).append(span);
+  $('.main ul').append(li);
+}

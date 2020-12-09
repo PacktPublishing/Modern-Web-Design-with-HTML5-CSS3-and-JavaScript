@@ -1,0 +1,16 @@
+$('input[name="checks"]').click(updateImage);
+$('input[name="checks"]').prop('checked', true);
+//https://dummyimage.com/200x100/0d52ba/fff&text=jQuery
+function updateImage(e) {
+  console.log('clicked');
+  let col, output;
+  if ($(this).prop('checked')) {
+    col = '0000ff';
+    output = 'jQuery';
+  }
+  else {
+    col = '0d52ba';
+    output = 'NotChecked';
+  }
+  $('img').attr('src', 'https://dummyimage.com/200x100/' + col + '/fff&text=' + output);
+}

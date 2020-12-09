@@ -1,0 +1,10 @@
+$('li').click(function (e) {
+  $(this).toggleClass('red');
+  $(this).toggleClass('blue');
+})
+$('h1').html('REMOVE RED').click(function (e) {
+  $('li').removeClass('red');
+})
+$('h2').text('REMOVE BLUE').click(function (e) {
+  $('li').removeClass('blue');
+})

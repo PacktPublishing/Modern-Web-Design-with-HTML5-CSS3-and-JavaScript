@@ -1,0 +1,13 @@
+$('h1').text('SlideUp').click(function (e) {
+  $('.main').slideUp(1000, success('UP'));
+})
+$('h2').text('SlideDown').click(function (e) {
+  $('.main').slideDown('slow', success('DOWN'));
+})
+$('.output').text('TOGGLE').click(function (e) {
+  $('.main').slideToggle('fast', success('TOGGLE'));
+})
+
+function success(message) {
+  $('.output').text(message);
+}

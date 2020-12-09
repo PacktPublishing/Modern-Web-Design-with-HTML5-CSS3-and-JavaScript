@@ -1,0 +1,45 @@
+<html>
+ 
+<head>
+  <title>Questions and Answers JavaScript</title>
+</head>
+ 
+<body>
+  <div class="top">
+    <div class="nested1">Nested 1</div>
+    <div class="nested2">Nested 2</div>
+    <div class="nested3">Nested 3</div>
+  </div>
+  <script>
+    let tog = true;
+    const div = document.createElement('div');
+    div.textContent = "hello";
+    div.style.color = "red";
+    div.style.position = "absolute";
+    div.style.left = '50px';
+    div.x = 50;
+    div.addEventListener('click', stopper);
+    const topEle = document.querySelector('.top');
+    topEle.append(div);
+    let myAni = requestAnimationFrame(mover);
+ 
+    function stopper() {
+      if (tog) {
+        cancelAnimationFrame(myAni);
+        tog = false;
+      }
+      else {
+        tog = true;
+        myAni = requestAnimationFrame(mover);
+      }
+    }
+ 
+    function mover() {
+      div.x = div.x + 1;
+      div.style.left = div.x + 'px';
+      myAni = requestAnimationFrame(mover);
+    }
+  </script>
+</body>
+ 
+</html>

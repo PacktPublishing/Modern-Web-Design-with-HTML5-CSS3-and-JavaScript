@@ -1,0 +1,21 @@
+let cnt = 0;
+$('.main').mouseenter(function (e) {
+  $(this).addClass('red');
+  cnt++;
+  console.log('Enter ' + cnt);
+})
+$('.main').mouseleave(function (e) {
+  $(this).removeClass('red');
+})
+$('h1').mousemove(function (e) {
+  cnt++;
+  console.log('moving ' + cnt);
+})
+$('h2').mouseout(function (e) {
+  cnt++;
+  console.log('Out ' + cnt);
+})
+$('h2').mouseleave(function (e) {
+  cnt++;
+  console.log('Leave ' + cnt);
+})

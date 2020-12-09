@@ -1,0 +1,43 @@
+Files - 
+
+https://developers.google.com/speed/libraries
+
+https://jquery.com/download/
+
+https://github.com/jquery/jquery
+
+Projet Starter Code
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Learn jQuery</title>
+</head>
+
+<body>
+  <h1>jQuery</h1>
+  <h2>Explore how to write jQuery Code</h2>
+  <div class="main">
+    <ul>
+      <li>Click me 1</li>
+      <li>Click me 2</li>
+      <li>Click me 3</li>
+      <li>Click me 4</li>
+      <li>Click me 5</li>
+      <li>Click me 6</li>
+    </ul>
+  </div>
+  <ul>
+    <li>Click me 1</li>
+    <li>Click me 2</li>
+    <li>Click me 3</li>
+    <li>Click me 4</li>
+    <li>Click me 5</li>
+    <li>Click me 6</li>
+  </ul>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

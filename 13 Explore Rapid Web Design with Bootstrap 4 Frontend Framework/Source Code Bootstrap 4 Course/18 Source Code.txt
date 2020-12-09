@@ -1,0 +1,37 @@
+<main class="container">
+  <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal1">Click Me</button>
+  <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modal2">Click Me</button>
+</main>
+<div id="modal1" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">My Modal
+        <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <div class="display-4">Modal Popup</div>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="modal2" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">My Modal
+        <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <div class="display-4">Modal Popup</div>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $("#modal1").modal('toggle');
+  $("#modal2").on('hidden.bs.modal', function (e) {
+    console.log('hello');
+  })
+</script>
